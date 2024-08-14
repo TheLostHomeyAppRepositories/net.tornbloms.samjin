@@ -1,0 +1,59 @@
+{
+   "type": "boolean",
+   "title": {
+      "en": "Closed"
+   },
+   "desc": {
+      "en": "True when the magnet is close"
+   },
+   "insights": true,
+   "insightsTitleTrue": {
+      "en": "Closed"
+   },
+   "insightsTitleFalse": {
+      "en": "Open"
+   },
+   "getable": true,
+   "setable": false,
+   "uiComponent": "toggle",
+   "$flow": {
+      "triggers": [
+         {
+            "id": "closed_true",
+            "title": {
+               "en": "Closed"
+            }
+         },
+         {
+            "id": "closed_false",
+            "title": {
+               "en": "Open"
+            }
+         }
+      ],
+      "conditions": [
+         {
+            "id": "closed",
+            "title": {
+               "en": "The sensor is !{{closed|open}}"
+            }
+         }
+      ],
+      "actions": [
+         {
+            "id": "closed",
+            "highlight": true,
+            "title": {
+               "en": "closed"
+            }
+         },
+         {
+            "id": "open",
+            "highlight": true,
+            "title": {
+               "en": "open"
+            }
+         }
+      ]
+   }
+}

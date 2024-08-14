@@ -1,0 +1,13 @@
+{
+   "type": "number",
+   "title": {
+      "en": "Acceleration"
+   },
+   "getable": true,
+   "setable": false,
+   "icon": "/assets/images/acceleration.svg",
+   "units": {
+      "en": "g"
+   },
+   "decimals": 1
+}

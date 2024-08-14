@@ -1,0 +1,331 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "net.tornbloms.smarttings",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "SmartThings"
+  },
+  "description": {
+    "en": "Welcome to the future of home living! Transform your house into a smart home with smart sensors."
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Mathias Törnblom",
+    "email": "mathias@tornbloms.net"
+  },
+  "drivers": [
+    {
+      "name": {
+        "en": "SmartThings Multipurpose Sensor V5"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "acceleration",
+        "contact_closed",
+        "alarm_contact",
+        "alarm_battery",
+        "measure_battery",
+        "measure_temperature"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": "SmartThings",
+        "productId": [
+          "IM6001-MPP01"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              4,
+              5,
+              6
+            ],
+            "bindings": [
+              6
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/im6001-mpp01/assets/images/icon.svg",
+          "instruction": {
+            "en": "1. Press and Hold the recessed connect button for five (5) seconds.\n2. Release the button when the LED starts blinking red.\n3. The LED will blink red and green while attempting to connect."
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/im6001-mpp01/assets/images/small.png",
+        "large": "/drivers/im6001-mpp01/assets/images/large.png",
+        "xlarge": "/drivers/im6001-mpp01/assets/images/xlarge.png"
+      },
+      "id": "im6001-mpp01"
+    }
+  ],
+  "capabilities": {
+    "acceleration": {
+      "type": "number",
+      "title": {
+        "en": "Acceleration"
+      },
+      "getable": true,
+      "setable": false,
+      "icon": "/assets/images/acceleration.svg",
+      "units": {
+        "en": "g"
+      },
+      "decimals": 1
+    },
+    "alarm_battery": {
+      "type": "boolean",
+      "title": {
+        "en": "Battery alarm",
+        "nl": "Batterij alarm",
+        "de": "Batterie-Alarm",
+        "fr": "Alarme batterie",
+        "it": "Allarme batteria",
+        "sv": "Batterialarm",
+        "no": "Batterialarm",
+        "es": "Alarma de batería",
+        "da": "Batterialarm",
+        "ru": "Сигнал аккумулятора",
+        "pl": "Alarm stanu baterii",
+        "ko": "배터리 알람"
+      },
+      "desc": {
+        "en": "True when there is a battery warning",
+        "nl": "Geeft een batterijwaarschuwing",
+        "de": "True, wenn es eine Batterie-Warnung gibt",
+        "fr": "Vrai quand il y a un avertissement de batterie",
+        "it": "Vero quando c'è un avvertimento sulla batteria",
+        "sv": "Sant när det finns en batterivarning",
+        "no": "Sant når det finnes en batteriadvarsel",
+        "es": "Verdadero cuando hay una advertencia de la batería",
+        "da": "Sandt, når der er en batterialarm",
+        "ru": "Верно, когда есть предупреждение об аккумуляторе",
+        "pl": "Adekwatny, kiedy włączy się ostrzeżenie o stanie baterii",
+        "ko": "배터리 경고가 있으면 참"
+      },
+      "insights": true,
+      "insightsTitleTrue": {
+        "en": "Battery alarm turned on",
+        "nl": "Batterijalarm ging af",
+        "de": "Batterie-Alarm ist angegangen",
+        "fr": "Alarme batterie activée",
+        "it": "Allarme batteria attivato",
+        "sv": "Batterialarm aktiverat",
+        "no": "Batterialarm aktivert",
+        "es": "Alarma de la batería activada",
+        "da": "Batterialarm aktiveret",
+        "ru": "Сигнал аккумулятора включен",
+        "pl": "Alarm stanu baterii włączony",
+        "ko": "배터리 알람 켜짐"
+      },
+      "insightsTitleFalse": {
+        "en": "Battery alarm turned off",
+        "nl": "Batterijalarm ging uit",
+        "de": "Batterie-Alarm ist ausgegangen",
+        "fr": "Alarme batterie désactivée",
+        "it": "Allarme batteria disattivato",
+        "sv": "Batterialarm avstängt",
+        "no": "Batterialarm deaktivert",
+        "es": "Alarma de la batería desactivada",
+        "da": "Batterialarm deaktiveret",
+        "ru": "Сигнал аккумулятора выключен",
+        "pl": "Alarm stanu baterii wyłączony",
+        "ko": "배터리 알람 꺼짐"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "battery"
+    },
+    "alarm_contact": {
+      "type": "boolean",
+      "title": {
+        "en": "Contact alarm",
+        "nl": "Contact alarm",
+        "de": "Kontakt-Alarm",
+        "fr": "Alarme contact",
+        "it": "Allarme contatto",
+        "sv": "Kontaktalarm",
+        "no": "Kontaktalarm",
+        "es": "Alarma de contacto",
+        "da": "Kontaktalarm",
+        "ru": "Контактный сигнал",
+        "pl": "Alarm otwarcia",
+        "ko": "접촉 알람"
+      },
+      "desc": {
+        "en": "Contact sensor, e.g. for windows (true/false)",
+        "nl": "Contact sensor, bijvoorbeeld voor ramen",
+        "de": "Kontaktsensor, z.B. für Windows (true/false)",
+        "fr": "Capteur de contact, par ex. pour les fenêtres (vrai/faux)",
+        "it": "Sensore di contatto, ad es. per le finestre (vero/falso)",
+        "sv": "Kontaktsensor, t.ex. för fönster (sant/falskt)",
+        "no": "Kontaktsensor, f.eks. for vindu (sant/usant)",
+        "es": "Sensor de contacto, p. ej., para ventanas (verdadero/falso)",
+        "da": "Kontaktsensor, f.eks. til vinduer (sandt/falsk)",
+        "ru": "Контактный датчик, например для окон (истина/ложь)",
+        "pl": "Czujnik otwarcia, np. okien (adekwatny/nieadekwatny)",
+        "ko": "접촉 센서, 예: 창문(참/거짓)"
+      },
+      "insights": true,
+      "insightsTitleTrue": {
+        "en": "Contact alarm turned on",
+        "nl": "Contact alarm ging af",
+        "de": "Kontakt-Alarm ist angegangen",
+        "fr": "Alarme contact s'est activée",
+        "it": "Allarme di contatto attivato",
+        "sv": "Kontaktalarm aktiverat",
+        "no": "Kontaktalarm aktivert",
+        "es": "Alarma de contacto activada",
+        "da": "Kontaktalarm blev aktiveret",
+        "ru": "Контактный сигнал включен",
+        "pl": "Alarm otwarcia włączony",
+        "ko": "접촉 알람 켜짐"
+      },
+      "insightsTitleFalse": {
+        "en": "Contact alarm turned off",
+        "nl": "Contact alarm ging uit",
+        "de": "Kontakt-Alarm ist ausgegangen",
+        "fr": "Alarme contact s'est désactivée",
+        "it": "Allarme di contatto disattivato",
+        "sv": "Kontaktalarm inaktiverat",
+        "no": "Kontaktalarm deaktivert",
+        "es": "Alarma de contacto desactivada",
+        "da": "Kontaktalarm blev deaktiveret",
+        "ru": "Контактный сигнал выключен",
+        "pl": "Alarm otwarcia wyłączony",
+        "ko": "접촉 알람 꺼짐"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "options": {
+        "zoneActivity": true
+      }
+    },
+    "contact_closed": {
+      "type": "boolean",
+      "title": {
+        "en": "Closed"
+      },
+      "desc": {
+        "en": "True when the magnet is close"
+      },
+      "insights": true,
+      "insightsTitleTrue": {
+        "en": "Closed"
+      },
+      "insightsTitleFalse": {
+        "en": "Open"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "toggle"
+    },
+    "measure_battery": {
+      "type": "number",
+      "title": {
+        "en": "Battery",
+        "nl": "Accuniveau",
+        "de": "Batterie",
+        "fr": "Batterie",
+        "it": "Batteria",
+        "sv": "Batteri",
+        "no": "Batteri",
+        "es": "Batería",
+        "da": "Batteri",
+        "ru": "Аккумулятор",
+        "pl": "Bateria",
+        "ko": "배터리"
+      },
+      "units": {
+        "en": "%",
+        "ko": "%",
+        "no": " %"
+      },
+      "insights": true,
+      "min": 0,
+      "max": 100,
+      "desc": {
+        "en": "Battery charge in percentage (%)",
+        "nl": "Accuniveau in procenten (%)",
+        "de": "Batteriestand in Prozent (%)",
+        "fr": "Pourcentage de charge de la batterie (%)",
+        "it": "Percentuale di carica della batteria (%)",
+        "sv": "Batteriladdning i procent (%)",
+        "no": "Batterilading i prosent (%)",
+        "es": "Carga de la batería en porcentaje (%)",
+        "da": "Batteriniveau i procent (%)",
+        "ru": "Зарядка аккумулятора в процентах (%)",
+        "pl": "Naładowanie baterii w procentach (%)",
+        "ko": "배터리 충전량(%)"
+      },
+      "chartType": "spline",
+      "decimals": 2,
+      "getable": true,
+      "setable": false,
+      "uiComponent": "battery"
+    },
+    "measure_temperature": {
+      "type": "number",
+      "title": {
+        "en": "Temperature",
+        "nl": "Temperatuur",
+        "de": "Temperatur",
+        "fr": "Température",
+        "it": "Temperatura",
+        "sv": "Temperatur",
+        "no": "Temperatur",
+        "es": "Temperatura",
+        "da": "Temperatur",
+        "ru": "Температура",
+        "pl": "Temperatura",
+        "ko": "온도"
+      },
+      "units": {
+        "en": "°C",
+        "ko": "°C",
+        "no": "°C"
+      },
+      "insights": true,
+      "desc": {
+        "en": "Temperature in degrees Celsius (°C)",
+        "nl": "Temperatuur in graden Celsius (°C)",
+        "de": "Temperatur in Grad Celsius (°C)",
+        "fr": "Température en degrés Celsius (°C)",
+        "it": "Temperatura in gradi Celsius (°C)",
+        "sv": "Temperatur i grader Celsius (°C)",
+        "no": "Temperatur i grader Celsius (°C)",
+        "es": "Temperatura en grados Celsius (°C)",
+        "da": "Temperatur i Celsius (°C)",
+        "ru": "Температура в градусах Цельсия (°C)",
+        "pl": "Temperatura w stopniach Celsjusza (°C)",
+        "ko": "온도 섭씨(°C)"
+      },
+      "decimals": 2,
+      "chartType": "spline",
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+   "name": "net.tornbloms.smarttings",
+   "version": "1.0.0",
+   "main": "app.ts",
+   "scripts": {
+      "build": "tsc"
+   },
+   "devDependencies": {
+      "@tsconfig/node18": "^18.2.4",
+      "@types/homey": "npm:homey-apps-sdk-v3-types@^0.3.6",
+      "@types/node": "^22.2.0",
+      "typescript": "^5.5.4"
+   },
+   "dependencies": {
+      "homey-zigbeedriver": "^2.1.4"
+   }
+}
