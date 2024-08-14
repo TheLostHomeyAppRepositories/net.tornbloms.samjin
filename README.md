@@ -1,3 +1,3 @@
-# SmartThings
+# Samjin
 
-Adding SmartThings support for thier sensors.
+Adding Samjin support for thier sensors.

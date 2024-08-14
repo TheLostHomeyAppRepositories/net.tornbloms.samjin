@@ -1,41 +1,61 @@
 {
   "name": {
-    "en": "SmartThings Multipurpose Sensor V5"
+    "en": "Samjin Multi Sensor"
   },
   "class": "sensor",
   "capabilities": [
-     "acceleration",
-     "contact_closed",
-     "alarm_contact",
-     "alarm_battery",
-     "measure_battery",
-     "measure_temperature"
-  ],
-  "platforms": [
-    "local"
-  ],
-  "connectivity": [
-    "zigbee"
+    "measure_battery",
+    "alarm_contact",
+    "alarm_tamper",
+    "measure_temperature",
+    "alarm_motion"
   ],
   "zigbee": {
-    "manufacturerName": "SmartThings",
-    "productId": ["IM6001-MPP01"],
+    "manufacturerName": [
+      "Samjin"
+    ],
+    "productId": [
+      "multi"
+    ],
     "endpoints": {
       "1": {
-        "clusters": [0, 4, 5, 6],
-        "bindings": [6]
+        "clusters": [
+          0,
+          1,
+          3,
+          32,
+          1026,
+          1280,
+          2821,
+          64514
+        ],
+        "bindings": [
+          3,
+          25
+        ]
       }
-    },
-    "learnmode": {
-      "image": "{{driverAssetsPath}}/images/icon.svg",
-      "instruction": {
-         "en": "1. Press and Hold the recessed connect button for five (5) seconds.\n2. Release the button when the LED starts blinking red.\n3. The LED will blink red and green while attempting to connect."
-      }
+    }
+  },
+  "learnmode": {
+    "image": "{{driverAssetsPath}}/images/icon.svg",
+    "instruction": {
+      "en": "1. Press and Hold the recessed connect button for five (5) seconds.\n2. Release the button when the LED starts blinking red.\n3. The LED will blink red and green while attempting to connect."
     }
   },
   "images": {
     "small": "{{driverAssetsPath}}/images/small.png",
     "large": "{{driverAssetsPath}}/images/large.png",
     "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "connectivity": [
+    "zigbee"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450"
+    ]
   }
 }

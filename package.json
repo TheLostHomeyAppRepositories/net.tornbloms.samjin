@@ -1,5 +1,5 @@
 {
-   "name": "net.tornbloms.smarttings",
+   "name": "net.tornbloms.samjin",
    "version": "1.0.0",
    "main": "app.ts",
    "scripts": {
@@ -12,6 +12,7 @@
       "typescript": "^5.5.4"
    },
    "dependencies": {
-      "homey-zigbeedriver": "^2.1.4"
+      "homey-zigbeedriver": "^2.1.4",
+      "zigbee-clusters": "^2.4.1"
    }
 }

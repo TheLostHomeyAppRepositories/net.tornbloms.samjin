@@ -1,1 +1,1 @@
-Add support for SmartThings devices.
+Add support for Samjin devices.
