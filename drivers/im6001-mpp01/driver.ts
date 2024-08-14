@@ -24,15 +24,15 @@ class IM6001Driver extends ZigBeeDriver {
     */
    async onPairListDevices() {
       // Return an array of device configurations available for pairing
-      this.log('Listing devices...')
+      this.log('Listing devices...');
       return [
          {
             name: 'Samjin Multi Sensor',
             data: {
                ieeeAddress: '28:6d:97:00:01:10:f2:56',
                modelId: 'multi',
-            }
-         }
+            },
+         },
       ];
    }
 }
