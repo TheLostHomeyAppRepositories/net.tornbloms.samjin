@@ -1,1 +1,1 @@
-Add support for Samjin devices.
+Samjin transforms your living space into a smarter, more efficient home by effortlessly connecting and managing smart sensors. Monitor your environment, enhance security, and automate daily tasks with ease, all through a reliable and the intuitive interface.
