@@ -1,57 +1,67 @@
 {
-   "id": "net.tornbloms.samjin",
-   "version": "1.0.0",
-   "compatibility": ">=12.0.0",
-   "sdk": 3,
-   "platforms": ["local"],
-   "name": {
-      "en": "Samjin"
-   },
-   "description": {
-      "en": "Welcome to the future of home living! Transform your house into a smart home with smart sensors."
-   },
-   "category": ["tools"],
-   "tags": {
-      "en": ["Samjin","SmartThings","AeoTec"]
-   },
-   "brandColor": "#00a4e0",
-   "permissions": ["homey:wireless:zigbee"],
-   "images": {
-      "small": "/assets/images/small.png",
-      "large": "/assets/images/large.png",
-      "xlarge": "/assets/images/xlarge.png"
-   },
-   "author": {
-      "name": "Mathias Törnblom",
-      "email": "mathias@tornbloms.net"
-   },
-   "contributors": {
-      "developers": [
-         {
-            "name": "Mathias Törnblom"
-         }
-      ],
-      "translators": [
-         {
-            "name": "Mathias Törnblom"
-         }
-      ]
-   },
-   "contributing": {
-      "donate": {
-         "paypal": {
-            "username": "mathiastornblom"
-         },
-         "githubSponsors": {
-            "username": "mathiastornblom"
-         }
+  "id": "net.tornbloms.samjin",
+  "version": "1.0.1",
+  "compatibility": ">=12.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Samjin"
+  },
+  "description": {
+    "en": "Welcome to the future of home living! Transform your house into a smart home with smart sensors."
+  },
+  "category": [
+    "tools"
+  ],
+  "tags": {
+    "en": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec"
+    ]
+  },
+  "brandColor": "#00a4e0",
+  "permissions": [
+    "homey:wireless:zigbee"
+  ],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Mathias Törnblom",
+    "email": "mathias@tornbloms.net"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Mathias Törnblom"
       }
-   },
-   "bugs": {
-      "url": "https://github.com/mathiastornblom/net.tornbloms.samjin/issues"
-   },
-   "source": "https://github.com/mathiastornblom/net.tornbloms.samjin",
-   "support": "mailto:mathias@tornbloms.net",
-   "homeyCommunityTopicId": 114385,
-   "homepage": "https://github.com/mathiastornblom/net.tornbloms.samjin"
+    ],
+    "translators": [
+      {
+        "name": "Mathias Törnblom"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "mathiastornblom"
+      },
+      "githubSponsors": {
+        "username": "mathiastornblom"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/mathiastornblom/net.tornbloms.samjin/issues"
+  },
+  "source": "https://github.com/mathiastornblom/net.tornbloms.samjin",
+  "support": "mailto:mathias@tornbloms.net",
+  "homeyCommunityTopicId": 114385,
+  "homepage": "https://github.com/mathiastornblom/net.tornbloms.samjin"
 }
