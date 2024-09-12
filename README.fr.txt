@@ -1,0 +1,1 @@
+Samjin transforme votre espace de vie en une maison plus intelligente et plus efficace en connectant et gérant facilement des capteurs intelligents. Surveillez votre environnement, améliorez la sécurité et automatisez les tâches quotidiennes en toute simplicité, le tout via une interface fiable et intuitive.

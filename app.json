@@ -8,16 +8,104 @@
     "local"
   ],
   "name": {
-    "en": "Samjin"
+    "en": "Samjin",
+    "nl": "Samjin",
+    "da": "Samjin",
+    "de": "Samjin",
+    "es": "Samjin",
+    "fr": "Samjin",
+    "it": "Samjin",
+    "no": "Samjin",
+    "sv": "Samjin",
+    "pl": "Samjin",
+    "ru": "Самджин",
+    "ko": "삼진"
   },
   "description": {
-    "en": "Empower your home with seamless smart sensor integration"
+    "en": "Empower your home with seamless smart sensor integration",
+    "nl": "Maak je huis krachtiger met naadloze slimme sensorintegratie",
+    "da": "Giv dit hjem styrke med problemfri smart sensorintegration",
+    "de": "Stärken Sie Ihr Zuhause mit nahtloser intelligenter Sensorintegration",
+    "es": "Potencia tu hogar con una integración de sensores inteligentes sin fisuras",
+    "fr": "Équipez votre maison d'une intégration transparente de capteurs intelligents",
+    "it": "Rendi la tua casa più potente con un'integrazione senza soluzione di continuità dei sensori intelligenti",
+    "no": "Styrk hjemmet ditt med sømløs smart sensorintegrasjon",
+    "sv": "Gör ditt hem kraftfullt med sömlös smart sensorsintegrering",
+    "pl": "Usprawnij swój dom dzięki bezproblemowej integracji inteligentnych czujników",
+    "ru": "Расширьте возможности вашего дома с помощью бесшовной интеграции умных датчиков",
+    "ko": "원활한 스마트 센서 통합으로 가정을 강화하세요"
   },
   "category": [
     "tools"
   ],
   "tags": {
     "en": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "nl": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "da": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "de": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "es": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "fr": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "it": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "no": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "sv": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "pl": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "ru": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "ko": [
       "Samjin",
       "SmartThings",
       "AeoTec",
@@ -70,7 +158,18 @@
     {
       "id": "3200-Sgb",
       "name": {
-        "en": "CentraLite 3200-Sgb"
+        "en": "CentraLite 3200-Sgb",
+        "nl": "CentraLite 3200-Sgb",
+        "da": "CentraLite 3200-Sgb",
+        "de": "CentraLite 3200-Sgb",
+        "es": "CentraLite 3200-Sgb",
+        "fr": "CentraLite 3200-Sgb",
+        "it": "CentraLite 3200-Sgb",
+        "no": "CentraLite 3200-Sgb",
+        "sv": "CentraLite 3200-Sgb",
+        "pl": "CentraLite 3200-Sgb",
+        "ru": "CentraLite 3200-Sgb",
+        "ko": "CentraLite 3200-Sgb"
       },
       "class": "socket",
       "capabilities": [
@@ -112,7 +211,18 @@
       },
       "learnmode": {
         "instruction": {
-          "en": "1. Unplug any devices from the module and unplug from the wall.\n2. Now hold the on/off button while plugging it back into the wall.\n3. Hold the button until the status LED turns on."
+          "en": "1. Unplug any devices from the module and unplug from the wall.\n2. Now hold the on/off button while plugging it back into the wall.\n3. Hold the button until the status LED turns on.",
+          "nl": "1. Haal alle apparaten uit de module en trek de stekker uit het stopcontact.\n2. Houd nu de aan/uit-knop ingedrukt terwijl u de stekker weer in het stopcontact steekt.\n3. Houd de knop ingedrukt totdat de status-LED gaat branden.",
+          "da": "1. Tag eventuelle enheder ud af modulet og tag stikket ud af stikkontakten.\n2. Hold nu tænd/sluk-knappen nede, mens du sætter stikket tilbage i stikkontakten.\n3. Hold knappen nede, indtil status-LED'en tænder.",
+          "de": "1. Stecken Sie alle Geräte aus dem Modul und ziehen Sie den Stecker aus der Wand.\n2. Halten Sie nun die Ein-/Aus-Taste gedrückt, während Sie den Stecker wieder in die Wand stecken.\n3. Halten Sie die Taste gedrückt, bis die Status-LED leuchtet.",
+          "es": "1. Desenchufa cualquier dispositivo del módulo y desenchúfalo de la pared.\n2. Ahora mantén presionado el botón de encendido/apagado mientras lo vuelves a enchufar.\n3. Mantén el botón presionado hasta que el LED de estado se encienda.",
+          "fr": "1. Débranchez tous les appareils du module et débranchez-le du mur.\n2. Maintenez maintenant enfoncé le bouton marche/arrêt tout en le rebranchant dans le mur.\n3. Maintenez le bouton enfoncé jusqu'à ce que le voyant d'état s'allume.",
+          "it": "1. Scollega eventuali dispositivi dal modulo e scollegalo dalla parete.\n2. Ora tieni premuto il pulsante di accensione/spegnimento mentre lo ricolleghi alla parete.\n3. Tieni premuto il pulsante finché il LED di stato non si accende.",
+          "no": "1. Koble fra enhetene fra modulen og trekk ut veggpluggen.\n2. Hold nede på/av-knappen mens du kobler den til veggen igjen.\n3. Hold knappen nede til statuslampen tennes.",
+          "sv": "1. Koppla bort eventuella enheter från modulen och dra ut den från väggen.\n2. Håll nere på/av-knappen medan du sätter tillbaka den i vägguttaget.\n3. Håll knappen tills status-LED:en lyser.",
+          "pl": "1. Odłącz wszystkie urządzenia od modułu i wyjmij go z gniazdka.\n2. Teraz przytrzymaj przycisk włącz/wyłącz, podłączając go ponownie do gniazdka.\n3. Przytrzymaj przycisk, aż zaświeci się dioda stanu.",
+          "ru": "1. Отсоедините все устройства от модуля и выньте из розетки.\n2. Теперь удерживайте кнопку вкл/выкл, пока вы снова вставляете его в розетку.\n3. Удерживайте кнопку, пока не загорится светодиод состояния.",
+          "ko": "1. 모듈에서 모든 장치를 분리하고 벽에서 분리하십시오.\n2. 이제 전원 버튼을 누르면서 다시 벽에 꽂습니다.\n3. 상태 표시등이 켜질 때까지 버튼을 누르고 있습니다."
         }
       },
       "images": {
@@ -131,40 +241,117 @@
         {
           "type": "group",
           "label": {
-            "en": "Device infomation"
+            "en": "Device infomation",
+            "nl": "Apparaat informatie",
+            "da": "Enhedsoplysninger",
+            "de": "Geräteinformationen",
+            "es": "Información del dispositivo",
+            "fr": "Informations sur l'appareil",
+            "it": "Informazioni sul dispositivo",
+            "no": "Enhetsinformasjon",
+            "sv": "Enhetsinformation",
+            "pl": "Informacje o urządzeniu",
+            "ru": "Информация об устройстве",
+            "ko": "장치 정보"
           },
           "children": [
             {
               "id": "name",
               "type": "label",
               "label": {
-                "en": "Device Name"
+                "en": "Device Name",
+                "nl": "Apparaat Naam",
+                "da": "Enhedsnavn",
+                "de": "Gerätename",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Enhetsnavn",
+                "sv": "Enhetsnamn",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치 이름"
               },
               "value": "SmartThings Outlet",
               "hint": {
-                "en": "Name of the device"
+                "en": "Name of the device",
+                "nl": "Naam van het apparaat",
+                "da": "Navn på enheden",
+                "de": "Name des Geräts",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Navn på enheten",
+                "sv": "Enhetens namn",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치 이름"
               }
             },
             {
               "id": "label",
               "type": "label",
               "label": {
-                "en": "Device Label"
+                "en": "Device Label",
+                "nl": "Apparaat Label",
+                "da": "Enhedsmærkat",
+                "de": "Geräteetikett",
+                "es": "Etiqueta del dispositivo",
+                "fr": "Étiquette de l'appareil",
+                "it": "Etichetta del dispositivo",
+                "no": "Enhetsmerke",
+                "sv": "Enhetsetikett",
+                "pl": "Etykieta urządzenia",
+                "ru": "Метка устройства",
+                "ko": "장치 라벨"
               },
               "value": "Sensor",
               "hint": {
-                "en": "A label for the device"
+                "en": "A label for the device",
+                "nl": "Een label voor het apparaat",
+                "da": "En etiket til enheden",
+                "de": "Ein Etikett für das Gerät",
+                "es": "Una etiqueta para el dispositivo",
+                "fr": "Une étiquette pour l'appareil",
+                "it": "Un'etichetta per il dispositivo",
+                "no": "En etikett for enheten",
+                "sv": "En etikett för enheten",
+                "pl": "Etykieta dla urządzenia",
+                "ru": "Метка для устройства",
+                "ko": "장치에 대한 라벨"
               }
             },
             {
               "id": "zigbeeid",
               "type": "label",
               "label": {
-                "en": "Zigbee Id"
+                "en": "Zigbee Id",
+                "nl": "Zigbee-ID",
+                "da": "Zigbee Id",
+                "de": "Zigbee-ID",
+                "es": "Id de Zigbee",
+                "fr": "Id Zigbee",
+                "it": "Id Zigbee",
+                "no": "Zigbee Id",
+                "sv": "Zigbee ID",
+                "pl": "Identyfikator Zigbee",
+                "ru": "Zigbee ID",
+                "ko": "Zigbee ID"
               },
               "value": "23456652435739SEDA",
               "hint": {
-                "en": "The Zigbee id of the device"
+                "en": "The Zigbee id of the device",
+                "nl": "De Zigbee-ID van het apparaat",
+                "da": "Zigbee-id'et for enheden",
+                "de": "Die Zigbee-ID des Geräts",
+                "es": "El ID de Zigbee del dispositivo",
+                "fr": "L'ID Zigbee de l'appareil",
+                "it": "L'ID Zigbee del dispositivo",
+                "no": "Zigbee-IDet til enheten",
+                "sv": "Enhetens Zigbee-ID",
+                "pl": "Identyfikator Zigbee urządzenia",
+                "ru": "Zigbee ID устройства",
+                "ko": "장치의 Zigbee ID"
               }
             }
           ]
@@ -174,7 +361,18 @@
     {
       "id": "im6001-mpp01",
       "name": {
-        "en": "Samjin Multi Sensor"
+        "en": "Samjin Multi Sensor",
+        "nl": "Samjin Multi Sensor",
+        "da": "Samjin Multi Sensor",
+        "de": "Samjin Multi Sensor",
+        "es": "Samjin Multi Sensor",
+        "fr": "Samjin Multi Capteur",
+        "it": "Samjin Multi Sensore",
+        "no": "Samjin Multi Sensor",
+        "sv": "Samjin Multi Sensor",
+        "pl": "Samjin Multi Czujnik",
+        "ru": "Samjin Multi Сенсор",
+        "ko": "Samjin Multi 센서"
       },
       "class": "sensor",
       "platforms": [
@@ -229,7 +427,18 @@
       "learnmode": {
         "image": "/drivers/im6001-mpp01/assets/learn.svg",
         "instruction": {
-          "en": "Insert a pin into the single hole on the side of the device and press it gently for aprox 5 seconds until the LED blinkson the front starts blinging red.\nWhen pairing, make sure to keep the sensor awake for 20 seconds by opening and closing the contact every second.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk"
+          "en": "Insert a pin into the single hole on the side of the device and press it gently for aprox 5 seconds until the LED blinkson the front starts blinging red.\nWhen pairing, make sure to keep the sensor awake for 20 seconds by opening and closing the contact every second.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "nl": "Steek een pin in het enkele gaatje aan de zijkant van het apparaat en druk deze voorzichtig gedurende ongeveer 5 seconden in totdat de LED aan de voorkant rood begint te knipperen.\nZorg er tijdens het koppelen voor dat de sensor 20 seconden wakker blijft door elke seconde het contact te openen en te sluiten.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "da": "Indsæt en stift i det ene hul på siden af enheden og tryk forsigtigt i ca. 5 sekunder, indtil LED'en på fronten begynder at blinke rødt.\nNår du parrer, skal du sørge for at holde sensoren vågen i 20 sekunder ved at åbne og lukke kontakten hvert sekund.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "de": "Stecken Sie eine Nadel in das einzelne Loch an der Seite des Geräts und drücken Sie sie ca. 5 Sekunden lang vorsichtig, bis die LED an der Vorderseite rot zu blinken beginnt.\nStellen Sie beim Pairing sicher, dass Sie den Sensor 20 Sekunden lang wach halten, indem Sie den Kontakt jede Sekunde öffnen und schließen.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "es": "Inserte un alfiler en el único orificio en el lado del dispositivo y presiónelo suavemente durante aproximadamente 5 segundos hasta que el LED en la parte delantera comience a parpadear en rojo.\nAl emparejar, asegúrate de mantener el sensor despierto durante 20 segundos abriendo y cerrando el contacto cada segundo.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "fr": "Insérez une épingle dans le seul trou sur le côté de l'appareil et appuyez doucement pendant environ 5 secondes jusqu'à ce que la LED à l'avant commence à clignoter en rouge.\nLors de l'appairage, assurez-vous de maintenir le capteur éveillé pendant 20 secondes en ouvrant et fermant le contact chaque seconde.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "it": "Inserire una spilla nel foro singolo sul lato del dispositivo e premerla delicatamente per circa 5 secondi fino a quando il LED sulla parte anteriore inizia a lampeggiare rosso.\nDurante l'associazione, assicurarsi di mantenere il sensore attivo per 20 secondi aprendo e chiudendo il contatto ogni secondo.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "no": "Sett inn en pinne i det ene hullet på siden av enheten og trykk forsiktig i ca. 5 sekunder til LED-lyset på forsiden begynner å blinke rødt.\nNår du parer, sørg for å holde sensoren våken i 20 sekunder ved å åpne og lukke kontakten hvert sekund.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "sv": "Sätt in en stift i det enda hålet på sidan av enheten och tryck försiktigt i ca 5 sekunder tills LED-lampan på framsidan börjar blinka rött.\nNär du parar, se till att hålla sensorn vaken i 20 sekunder genom att öppna och stänga kontakten varje sekund.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "pl": "Włóż szpilkę w pojedynczy otwór z boku urządzenia i delikatnie przytrzymaj przez około 5 sekund, aż dioda LED na froncie zacznie migać na czerwono.\nPodczas parowania upewnij się, że czujnik nie przejdzie w stan uśpienia przez 20 sekund, otwierając i zamykając kontakt co sekundę.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "ru": "Вставьте булавку в единственное отверстие на стороне устройства и нажимайте на нее примерно 5 секунд, пока светодиод на передней панели не начнет мигать красным.\nПри сопряжении убедитесь, что датчик не засыпает в течение 20 секунд, открывая и закрывая контакт каждую секунду.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+          "ko": "장치 측면에 있는 단일 구멍에 핀을 삽입하고 전면의 LED가 빨간색으로 깜박이기 시작할 때까지 약 5초간 부드럽게 누릅니다.\n페어링할 때는 센서가 깨어 있도록 매초마다 접점을 열고 닫아 20초 동안 깨어 있도록 하세요.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk"
         }
       },
       "capabilitiesOptions": {
@@ -239,40 +448,117 @@
         {
           "type": "group",
           "label": {
-            "en": "Device infomation"
+            "en": "Device infomation",
+            "nl": "Apparaatinformatie",
+            "da": "Enhedsoplysninger",
+            "de": "Geräteinformationen",
+            "es": "Información del dispositivo",
+            "fr": "Informations sur l'appareil",
+            "it": "Informazioni sul dispositivo",
+            "no": "Enhetsinformasjon",
+            "sv": "Enhetsinformation",
+            "pl": "Informacje o urządzeniu",
+            "ru": "Информация об устройстве",
+            "ko": "장치 정보"
           },
           "children": [
             {
               "id": "name",
               "type": "label",
               "label": {
-                "en": "Device Name"
+                "en": "Device Name",
+                "nl": "Apparaatnaam",
+                "da": "Enhedsnavn",
+                "de": "Gerätename",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Enhetsnavn",
+                "sv": "Enhetsnamn",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치 이름"
               },
               "value": "SmartThings Multipurpuse Sensor V5",
               "hint": {
-                "en": "Name of the device"
+                "en": "Name of the device",
+                "nl": "Naam van het apparaat",
+                "da": "Navn på enheden",
+                "de": "Name des Geräts",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Navn på enheten",
+                "sv": "Namn på enheten",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치의 이름"
               }
             },
             {
               "id": "label",
               "type": "label",
               "label": {
-                "en": "Device Label"
+                "en": "Device Label",
+                "nl": "Apparaatlabel",
+                "da": "Enhedsetiket",
+                "de": "Geräteetikett",
+                "es": "Etiqueta del dispositivo",
+                "fr": "Étiquette de l'appareil",
+                "it": "Etichetta del dispositivo",
+                "no": "Enhetsetikett",
+                "sv": "Enhetsetikett",
+                "pl": "Etykieta urządzenia",
+                "ru": "Метка устройства",
+                "ko": "장치 라벨"
               },
               "value": "Sensor",
               "hint": {
-                "en": "A label for the device"
+                "en": "A label for the device",
+                "nl": "Een label voor het apparaat",
+                "da": "En etiket til enheden",
+                "de": "Ein Etikett für das Gerät",
+                "es": "Una etiqueta para el dispositivo",
+                "fr": "Une étiquette pour l'appareil",
+                "it": "Un'etichetta per il dispositivo",
+                "no": "En etikett for enheten",
+                "sv": "En etikett för enheten",
+                "pl": "Etykieta dla urządzenia",
+                "ru": "Метка для устройства",
+                "ko": "장치에 대한 라벨"
               }
             },
             {
               "id": "zigbeeid",
               "type": "label",
               "label": {
-                "en": "Zigbee Id"
+                "en": "Zigbee Id",
+                "nl": "Zigbee id",
+                "da": "Zigbee-id",
+                "de": "Zigbee-ID",
+                "es": "ID de Zigbee",
+                "fr": "ID Zigbee",
+                "it": "ID Zigbee",
+                "no": "Zigbee ID",
+                "sv": "Zigbee-ID",
+                "pl": "Identyfikator Zigbee",
+                "ru": "Zigbee ID",
+                "ko": "Zigbee ID"
               },
               "value": "23456652435739SEDA",
               "hint": {
-                "en": "The Zigbee id of the device"
+                "en": "The Zigbee id of the device",
+                "nl": "De Zigbee-id van het apparaat",
+                "da": "Enhedens Zigbee-id",
+                "de": "Die Zigbee-ID des Geräts",
+                "es": "La ID de Zigbee del dispositivo",
+                "fr": "L'ID Zigbee de l'appareil",
+                "it": "L'ID Zigbee del dispositivo",
+                "no": "Enhetens Zigbee-ID",
+                "sv": "Enhetens Zigbee-ID",
+                "pl": "Identyfikator Zigbee urządzenia",
+                "ru": "Zigbee ID устройства",
+                "ko": "장치의 Zigbee ID"
               }
             }
           ]
@@ -525,7 +811,16 @@
       "units": {
         "en": "°C",
         "ko": "°C",
-        "no": "°C"
+        "no": "°C",
+        "nl": "°C",
+        "da": "°C",
+        "de": "°C",
+        "es": "°C",
+        "fr": "°C",
+        "it": "°C",
+        "sv": "°C",
+        "pl": "°C",
+        "ru": "°C"
       },
       "insights": true,
       "desc": {

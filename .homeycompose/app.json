@@ -7,16 +7,104 @@
     "local"
   ],
   "name": {
-    "en": "Samjin"
+    "en": "Samjin",
+    "nl": "Samjin",
+    "da": "Samjin",
+    "de": "Samjin",
+    "es": "Samjin",
+    "fr": "Samjin",
+    "it": "Samjin",
+    "no": "Samjin",
+    "sv": "Samjin",
+    "pl": "Samjin",
+    "ru": "Самджин",
+    "ko": "삼진"
   },
   "description": {
-    "en": "Empower your home with seamless smart sensor integration"
+    "en": "Empower your home with seamless smart sensor integration",
+    "nl": "Maak je huis krachtiger met naadloze slimme sensorintegratie",
+    "da": "Giv dit hjem styrke med problemfri smart sensorintegration",
+    "de": "Stärken Sie Ihr Zuhause mit nahtloser intelligenter Sensorintegration",
+    "es": "Potencia tu hogar con una integración de sensores inteligentes sin fisuras",
+    "fr": "Équipez votre maison d'une intégration transparente de capteurs intelligents",
+    "it": "Rendi la tua casa più potente con un'integrazione senza soluzione di continuità dei sensori intelligenti",
+    "no": "Styrk hjemmet ditt med sømløs smart sensorintegrasjon",
+    "sv": "Gör ditt hem kraftfullt med sömlös smart sensorsintegrering",
+    "pl": "Usprawnij swój dom dzięki bezproblemowej integracji inteligentnych czujników",
+    "ru": "Расширьте возможности вашего дома с помощью бесшовной интеграции умных датчиков",
+    "ko": "원활한 스마트 센서 통합으로 가정을 강화하세요"
   },
   "category": [
     "tools"
   ],
   "tags": {
     "en": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "nl": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "da": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "de": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "es": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "fr": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "it": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "no": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "sv": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "pl": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "ru": [
+      "Samjin",
+      "SmartThings",
+      "AeoTec",
+      "Centra Lite"
+    ],
+    "ko": [
       "Samjin",
       "SmartThings",
       "AeoTec",

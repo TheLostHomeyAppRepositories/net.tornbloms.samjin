@@ -1,11 +1,26 @@
 {
   "id": "im6001-mpp01",
   "name": {
-    "en": "Samjin Multi Sensor"
+    "en": "Samjin Multi Sensor",
+    "nl": "Samjin Multi Sensor",
+    "da": "Samjin Multi Sensor",
+    "de": "Samjin Multi Sensor",
+    "es": "Samjin Multi Sensor",
+    "fr": "Samjin Multi Capteur",
+    "it": "Samjin Multi Sensore",
+    "no": "Samjin Multi Sensor",
+    "sv": "Samjin Multi Sensor",
+    "pl": "Samjin Multi Czujnik",
+    "ru": "Samjin Multi Сенсор",
+    "ko": "Samjin Multi 센서"
   },
   "class": "sensor",
-  "platforms": ["local"],
-  "connectivity": ["zigbee"],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
   "capabilities": [
     "measure_battery",
     "alarm_contact",
@@ -14,12 +29,28 @@
     "alarm_motion"
   ],
   "zigbee": {
-    "manufacturerName": ["Samjin"],
-    "productId": ["multi"],
+    "manufacturerName": [
+      "Samjin"
+    ],
+    "productId": [
+      "multi"
+    ],
     "endpoints": {
       "1": {
-        "clusters": [0, 1, 3, 32, 1026, 1280, 2821, 64514],
-        "bindings": [3, 25]
+        "clusters": [
+          0,
+          1,
+          3,
+          32,
+          1026,
+          1280,
+          2821,
+          64514
+        ],
+        "bindings": [
+          3,
+          25
+        ]
       }
     }
   },
@@ -29,12 +60,25 @@
     "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
   },
   "energy": {
-    "batteries": ["CR2450"]
+    "batteries": [
+      "CR2450"
+    ]
   },
   "learnmode": {
     "image": "{{driverAssetsPath}}/learn.svg",
     "instruction": {
-      "en": "Insert a pin into the single hole on the side of the device and press it gently for aprox 5 seconds until the LED blinkson the front starts blinging red.\nWhen pairing, make sure to keep the sensor awake for 20 seconds by opening and closing the contact every second.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk"
+      "en": "Insert a pin into the single hole on the side of the device and press it gently for aprox 5 seconds until the LED blinkson the front starts blinging red.\nWhen pairing, make sure to keep the sensor awake for 20 seconds by opening and closing the contact every second.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "nl": "Steek een pin in het enkele gaatje aan de zijkant van het apparaat en druk deze voorzichtig gedurende ongeveer 5 seconden in totdat de LED aan de voorkant rood begint te knipperen.\nZorg er tijdens het koppelen voor dat de sensor 20 seconden wakker blijft door elke seconde het contact te openen en te sluiten.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "da": "Indsæt en stift i det ene hul på siden af enheden og tryk forsigtigt i ca. 5 sekunder, indtil LED'en på fronten begynder at blinke rødt.\nNår du parrer, skal du sørge for at holde sensoren vågen i 20 sekunder ved at åbne og lukke kontakten hvert sekund.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "de": "Stecken Sie eine Nadel in das einzelne Loch an der Seite des Geräts und drücken Sie sie ca. 5 Sekunden lang vorsichtig, bis die LED an der Vorderseite rot zu blinken beginnt.\nStellen Sie beim Pairing sicher, dass Sie den Sensor 20 Sekunden lang wach halten, indem Sie den Kontakt jede Sekunde öffnen und schließen.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "es": "Inserte un alfiler en el único orificio en el lado del dispositivo y presiónelo suavemente durante aproximadamente 5 segundos hasta que el LED en la parte delantera comience a parpadear en rojo.\nAl emparejar, asegúrate de mantener el sensor despierto durante 20 segundos abriendo y cerrando el contacto cada segundo.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "fr": "Insérez une épingle dans le seul trou sur le côté de l'appareil et appuyez doucement pendant environ 5 secondes jusqu'à ce que la LED à l'avant commence à clignoter en rouge.\nLors de l'appairage, assurez-vous de maintenir le capteur éveillé pendant 20 secondes en ouvrant et fermant le contact chaque seconde.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "it": "Inserire una spilla nel foro singolo sul lato del dispositivo e premerla delicatamente per circa 5 secondi fino a quando il LED sulla parte anteriore inizia a lampeggiare rosso.\nDurante l'associazione, assicurarsi di mantenere il sensore attivo per 20 secondi aprendo e chiudendo il contatto ogni secondo.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "no": "Sett inn en pinne i det ene hullet på siden av enheten og trykk forsiktig i ca. 5 sekunder til LED-lyset på forsiden begynner å blinke rødt.\nNår du parer, sørg for å holde sensoren våken i 20 sekunder ved å åpne og lukke kontakten hvert sekund.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "sv": "Sätt in en stift i det enda hålet på sidan av enheten och tryck försiktigt i ca 5 sekunder tills LED-lampan på framsidan börjar blinka rött.\nNär du parar, se till att hålla sensorn vaken i 20 sekunder genom att öppna och stänga kontakten varje sekund.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "pl": "Włóż szpilkę w pojedynczy otwór z boku urządzenia i delikatnie przytrzymaj przez około 5 sekund, aż dioda LED na froncie zacznie migać na czerwono.\nPodczas parowania upewnij się, że czujnik nie przejdzie w stan uśpienia przez 20 sekund, otwierając i zamykając kontakt co sekundę.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "ru": "Вставьте булавку в единственное отверстие на стороне устройства и нажимайте на нее примерно 5 секунд, пока светодиод на передней панели не начнет мигать красным.\nПри сопряжении убедитесь, что датчик не засыпает в течение 20 секунд, открывая и закрывая контакт каждую секунду.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk",
+      "ko": "장치 측면에 있는 단일 구멍에 핀을 삽입하고 전면의 LED가 빨간색으로 깜박이기 시작할 때까지 약 5초간 부드럽게 누릅니다.\n페어링할 때는 센서가 깨어 있도록 매초마다 접점을 열고 닫아 20초 동안 깨어 있도록 하세요.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk"
     }
   },
   "capabilitiesOptions": {

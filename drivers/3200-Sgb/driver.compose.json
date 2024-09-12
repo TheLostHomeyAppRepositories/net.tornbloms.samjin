@@ -1,7 +1,18 @@
 {
   "id": "CentraLite3200",
   "name": {
-    "en": "CentraLite 3200-Sgb"
+    "en": "CentraLite 3200-Sgb",
+    "nl": "CentraLite 3200-Sgb",
+    "da": "CentraLite 3200-Sgb",
+    "de": "CentraLite 3200-Sgb",
+    "es": "CentraLite 3200-Sgb",
+    "fr": "CentraLite 3200-Sgb",
+    "it": "CentraLite 3200-Sgb",
+    "no": "CentraLite 3200-Sgb",
+    "sv": "CentraLite 3200-Sgb",
+    "pl": "CentraLite 3200-Sgb",
+    "ru": "CentraLite 3200-Sgb",
+    "ko": "CentraLite 3200-Sgb"
   },
   "class": "socket",
   "capabilities": [
@@ -16,20 +27,45 @@
     }
   },
   "zigbee": {
-    "manufacturerName": ["CentraLite"],
+    "manufacturerName": [
+      "CentraLite"
+    ],
     "productId": "3200-Sgb",
-    "deviceId": [256],
+    "deviceId": [
+      256
+    ],
     "profileId": 260,
     "endpoints": {
       "1": {
-        "clusters": [0, 3, 4, 5, 6, 2820, 2821],
-        "bindings": [25]
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          2820,
+          2821
+        ],
+        "bindings": [
+          25
+        ]
       }
     }
   },
   "learnmode": {
     "instruction": {
-      "en": "1. Unplug any devices from the module and unplug from the wall.\n2. Now hold the on/off button while plugging it back into the wall.\n3. Hold the button until the status LED turns on."
+      "en": "1. Unplug any devices from the module and unplug from the wall.\n2. Now hold the on/off button while plugging it back into the wall.\n3. Hold the button until the status LED turns on.",
+      "nl": "1. Haal alle apparaten uit de module en trek de stekker uit het stopcontact.\n2. Houd nu de aan/uit-knop ingedrukt terwijl u de stekker weer in het stopcontact steekt.\n3. Houd de knop ingedrukt totdat de status-LED gaat branden.",
+      "da": "1. Tag eventuelle enheder ud af modulet og tag stikket ud af stikkontakten.\n2. Hold nu tænd/sluk-knappen nede, mens du sætter stikket tilbage i stikkontakten.\n3. Hold knappen nede, indtil status-LED'en tænder.",
+      "de": "1. Stecken Sie alle Geräte aus dem Modul und ziehen Sie den Stecker aus der Wand.\n2. Halten Sie nun die Ein-/Aus-Taste gedrückt, während Sie den Stecker wieder in die Wand stecken.\n3. Halten Sie die Taste gedrückt, bis die Status-LED leuchtet.",
+      "es": "1. Desenchufa cualquier dispositivo del módulo y desenchúfalo de la pared.\n2. Ahora mantén presionado el botón de encendido/apagado mientras lo vuelves a enchufar.\n3. Mantén el botón presionado hasta que el LED de estado se encienda.",
+      "fr": "1. Débranchez tous les appareils du module et débranchez-le du mur.\n2. Maintenez maintenant enfoncé le bouton marche/arrêt tout en le rebranchant dans le mur.\n3. Maintenez le bouton enfoncé jusqu'à ce que le voyant d'état s'allume.",
+      "it": "1. Scollega eventuali dispositivi dal modulo e scollegalo dalla parete.\n2. Ora tieni premuto il pulsante di accensione/spegnimento mentre lo ricolleghi alla parete.\n3. Tieni premuto il pulsante finché il LED di stato non si accende.",
+      "no": "1. Koble fra enhetene fra modulen og trekk ut veggpluggen.\n2. Hold nede på/av-knappen mens du kobler den til veggen igjen.\n3. Hold knappen nede til statuslampen tennes.",
+      "sv": "1. Koppla bort eventuella enheter från modulen och dra ut den från väggen.\n2. Håll nere på/av-knappen medan du sätter tillbaka den i vägguttaget.\n3. Håll knappen tills status-LED:en lyser.",
+      "pl": "1. Odłącz wszystkie urządzenia od modułu i wyjmij go z gniazdka.\n2. Teraz przytrzymaj przycisk włącz/wyłącz, podłączając go ponownie do gniazdka.\n3. Przytrzymaj przycisk, aż zaświeci się dioda stanu.",
+      "ru": "1. Отсоедините все устройства от модуля и выньте из розетки.\n2. Теперь удерживайте кнопку вкл/выкл, пока вы снова вставляете его в розетку.\n3. Удерживайте кнопку, пока не загорится светодиод состояния.",
+      "ko": "1. 모듈에서 모든 장치를 분리하고 벽에서 분리하십시오.\n2. 이제 전원 버튼을 누르면서 다시 벽에 꽂습니다.\n3. 상태 표시등이 켜질 때까지 버튼을 누르고 있습니다."
     }
   },
   "images": {
@@ -37,7 +73,11 @@
     "large": "{{driverAssetsPath}}/images/large.png",
     "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
   },
-  "connectivity": ["zigbee"],
-  "platforms": ["local"],
+  "connectivity": [
+    "zigbee"
+  ],
+  "platforms": [
+    "local"
+  ],
   "energy": {}
 }

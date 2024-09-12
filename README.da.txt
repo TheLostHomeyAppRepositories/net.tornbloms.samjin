@@ -1,0 +1,1 @@
+Samjin forvandler dit hjem til en smartere og mere effektiv bolig ved nemt at forbinde og styre smarte sensorer. Overvåg dit miljø, forbedr sikkerheden og automatiser daglige opgaver med lethed, alt gennem en pålidelig og intuitiv grænseflade.

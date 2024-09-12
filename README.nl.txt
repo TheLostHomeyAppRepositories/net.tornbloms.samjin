@@ -1,0 +1,1 @@
+Samjin verandert je woonruimte in een slimmer en efficiënter huis door moeiteloos slimme sensoren te verbinden en beheren. Houd je omgeving in de gaten, verbeter de beveiliging en automatiseer dagelijkse taken met gemak, allemaal via een betrouwbare en intuïtieve interface.

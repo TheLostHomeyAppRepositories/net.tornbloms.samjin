@@ -2,36 +2,117 @@
   {
     "type": "group",
     "label": {
-      "en": "Device infomation"
+      "en": "Device infomation",
+      "nl": "Apparaat informatie",
+      "da": "Enhedsoplysninger",
+      "de": "Geräteinformationen",
+      "es": "Información del dispositivo",
+      "fr": "Informations sur l'appareil",
+      "it": "Informazioni sul dispositivo",
+      "no": "Enhetsinformasjon",
+      "sv": "Enhetsinformation",
+      "pl": "Informacje o urządzeniu",
+      "ru": "Информация об устройстве",
+      "ko": "장치 정보"
     },
     "children": [
       {
         "id": "name",
         "type": "label",
-        "label": { "en": "Device Name" },
+        "label": {
+          "en": "Device Name",
+          "nl": "Apparaat Naam",
+          "da": "Enhedsnavn",
+          "de": "Gerätename",
+          "es": "Nombre del dispositivo",
+          "fr": "Nom de l'appareil",
+          "it": "Nome del dispositivo",
+          "no": "Enhetsnavn",
+          "sv": "Enhetsnamn",
+          "pl": "Nazwa urządzenia",
+          "ru": "Имя устройства",
+          "ko": "장치 이름"
+        },
         "value": "SmartThings Outlet",
         "hint": {
-          "en": "Name of the device"
+          "en": "Name of the device",
+          "nl": "Naam van het apparaat",
+          "da": "Navn på enheden",
+          "de": "Name des Geräts",
+          "es": "Nombre del dispositivo",
+          "fr": "Nom de l'appareil",
+          "it": "Nome del dispositivo",
+          "no": "Navn på enheten",
+          "sv": "Enhetens namn",
+          "pl": "Nazwa urządzenia",
+          "ru": "Имя устройства",
+          "ko": "장치 이름"
         }
       },
       {
         "id": "label",
         "type": "label",
         "label": {
-          "en": "Device Label"
+          "en": "Device Label",
+          "nl": "Apparaat Label",
+          "da": "Enhedsmærkat",
+          "de": "Geräteetikett",
+          "es": "Etiqueta del dispositivo",
+          "fr": "Étiquette de l'appareil",
+          "it": "Etichetta del dispositivo",
+          "no": "Enhetsmerke",
+          "sv": "Enhetsetikett",
+          "pl": "Etykieta urządzenia",
+          "ru": "Метка устройства",
+          "ko": "장치 라벨"
         },
         "value": "Sensor",
         "hint": {
-          "en": "A label for the device"
+          "en": "A label for the device",
+          "nl": "Een label voor het apparaat",
+          "da": "En etiket til enheden",
+          "de": "Ein Etikett für das Gerät",
+          "es": "Una etiqueta para el dispositivo",
+          "fr": "Une étiquette pour l'appareil",
+          "it": "Un'etichetta per il dispositivo",
+          "no": "En etikett for enheten",
+          "sv": "En etikett för enheten",
+          "pl": "Etykieta dla urządzenia",
+          "ru": "Метка для устройства",
+          "ko": "장치에 대한 라벨"
         }
       },
       {
         "id": "zigbeeid",
         "type": "label",
-        "label": { "en": "Zigbee Id" },
+        "label": {
+          "en": "Zigbee Id",
+          "nl": "Zigbee-ID",
+          "da": "Zigbee Id",
+          "de": "Zigbee-ID",
+          "es": "Id de Zigbee",
+          "fr": "Id Zigbee",
+          "it": "Id Zigbee",
+          "no": "Zigbee Id",
+          "sv": "Zigbee ID",
+          "pl": "Identyfikator Zigbee",
+          "ru": "Zigbee ID",
+          "ko": "Zigbee ID"
+        },
         "value": "23456652435739SEDA",
         "hint": {
-          "en": "The Zigbee id of the device"
+          "en": "The Zigbee id of the device",
+          "nl": "De Zigbee-ID van het apparaat",
+          "da": "Zigbee-id'et for enheden",
+          "de": "Die Zigbee-ID des Geräts",
+          "es": "El ID de Zigbee del dispositivo",
+          "fr": "L'ID Zigbee de l'appareil",
+          "it": "L'ID Zigbee del dispositivo",
+          "no": "Zigbee-IDet til enheten",
+          "sv": "Enhetens Zigbee-ID",
+          "pl": "Identyfikator Zigbee urządzenia",
+          "ru": "Zigbee ID устройства",
+          "ko": "장치의 Zigbee ID"
         }
       }
     ]
