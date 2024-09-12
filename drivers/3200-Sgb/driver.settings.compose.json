@@ -1,0 +1,39 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Device infomation"
+    },
+    "children": [
+      {
+        "id": "name",
+        "type": "label",
+        "label": { "en": "Device Name" },
+        "value": "SmartThings Outlet",
+        "hint": {
+          "en": "Name of the device"
+        }
+      },
+      {
+        "id": "label",
+        "type": "label",
+        "label": {
+          "en": "Device Label"
+        },
+        "value": "Sensor",
+        "hint": {
+          "en": "A label for the device"
+        }
+      },
+      {
+        "id": "zigbeeid",
+        "type": "label",
+        "label": { "en": "Zigbee Id" },
+        "value": "23456652435739SEDA",
+        "hint": {
+          "en": "The Zigbee id of the device"
+        }
+      }
+    ]
+  }
+]

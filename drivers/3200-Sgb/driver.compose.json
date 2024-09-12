@@ -1,0 +1,43 @@
+{
+  "id": "CentraLite3200",
+  "name": {
+    "en": "CentraLite 3200-Sgb"
+  },
+  "class": "socket",
+  "capabilities": [
+    "onoff",
+    "measure_voltage",
+    "measure_current",
+    "measure_power"
+  ],
+  "capabilitiesOptions": {
+    "measure_power": {
+      "approximated": true
+    }
+  },
+  "zigbee": {
+    "manufacturerName": ["CentraLite"],
+    "productId": "3200-Sgb",
+    "deviceId": [256],
+    "profileId": 260,
+    "endpoints": {
+      "1": {
+        "clusters": [0, 3, 4, 5, 6, 2820, 2821],
+        "bindings": [25]
+      }
+    }
+  },
+  "learnmode": {
+    "instruction": {
+      "en": "1. Unplug any devices from the module and unplug from the wall.\n2. Now hold the on/off button while plugging it back into the wall.\n3. Hold the button until the status LED turns on."
+    }
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "connectivity": ["zigbee"],
+  "platforms": ["local"],
+  "energy": {}
+}
