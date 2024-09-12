@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "net.tornbloms.samjin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": ">=12.0.0",
   "sdk": 3,
   "platforms": [
@@ -20,7 +20,8 @@
     "en": [
       "Samjin",
       "SmartThings",
-      "AeoTec"
+      "AeoTec",
+      "Centra Lite"
     ]
   },
   "brandColor": "#00a4e0",
@@ -66,6 +67,110 @@
   "homeyCommunityTopicId": 114385,
   "homepage": "https://github.com/mathiastornblom/net.tornbloms.samjin",
   "drivers": [
+    {
+      "id": "3200-Sgb",
+      "name": {
+        "en": "CentraLite 3200-Sgb"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff",
+        "measure_voltage",
+        "measure_current",
+        "measure_power"
+      ],
+      "capabilitiesOptions": {
+        "measure_power": {
+          "approximated": true
+        }
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "CentraLite"
+        ],
+        "productId": "3200-Sgb",
+        "deviceId": [
+          256
+        ],
+        "profileId": 260,
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              2820,
+              2821
+            ],
+            "bindings": [
+              25
+            ]
+          }
+        }
+      },
+      "learnmode": {
+        "instruction": {
+          "en": "1. Unplug any devices from the module and unplug from the wall.\n2. Now hold the on/off button while plugging it back into the wall.\n3. Hold the button until the status LED turns on."
+        }
+      },
+      "images": {
+        "small": "/drivers/3200-Sgb/assets/images/small.png",
+        "large": "/drivers/3200-Sgb/assets/images/large.png",
+        "xlarge": "/drivers/3200-Sgb/assets/images/xlarge.png"
+      },
+      "connectivity": [
+        "zigbee"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "energy": {},
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Device infomation"
+          },
+          "children": [
+            {
+              "id": "name",
+              "type": "label",
+              "label": {
+                "en": "Device Name"
+              },
+              "value": "SmartThings Outlet",
+              "hint": {
+                "en": "Name of the device"
+              }
+            },
+            {
+              "id": "label",
+              "type": "label",
+              "label": {
+                "en": "Device Label"
+              },
+              "value": "Sensor",
+              "hint": {
+                "en": "A label for the device"
+              }
+            },
+            {
+              "id": "zigbeeid",
+              "type": "label",
+              "label": {
+                "en": "Zigbee Id"
+              },
+              "value": "23456652435739SEDA",
+              "hint": {
+                "en": "The Zigbee id of the device"
+              }
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "im6001-mpp01",
       "name": {
@@ -126,6 +231,9 @@
         "instruction": {
           "en": "Insert a pin into the single hole on the side of the device and press it gently for aprox 5 seconds until the LED blinkson the front starts blinging red.\nWhen pairing, make sure to keep the sensor awake for 20 seconds by opening and closing the contact every second.\nhttps://www.youtube.com/watch?v=yT3iVHuO7Qk"
         }
+      },
+      "capabilitiesOptions": {
+        "measure_power": {}
       },
       "settings": [
         {
