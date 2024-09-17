@@ -54,7 +54,14 @@ class CentraLiteDevice extends ZigBeeDevice {
     }
 
     // Register capability listeners
-    this.registerCapability('onoff', 'genOnOff');
+    if (this.hasCapability('onoff'))
+      this.registerCapability('onoff', CLUSTER.ON_OFF, {
+        getOpts: {
+          pollInterval: 15000,
+          getOnOnline: true,
+        },
+      });
+
     // meter_power
     this.registerCapability('meter_power', CLUSTER.METERING, {
       reportParser: (value: number) => (value * this.meteringOffset) / 100.0,
