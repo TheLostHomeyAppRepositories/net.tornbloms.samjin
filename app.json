@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "net.tornbloms.samjin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "compatibility": ">=12.0.0",
   "sdk": 3,
   "platforms": [
@@ -564,6 +564,246 @@
           ]
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Samjin Moisture Sensor",
+        "nl": "SmartThings Vochtigheidssensor",
+        "da": "SmartThings Fugtighedssensor",
+        "de": "SmartThings Feuchtigkeitssensor",
+        "es": "Sensor de Humedad SmartThings",
+        "fr": "Capteur d'Humidité SmartThings",
+        "it": "Sensore di Umidità SmartThings",
+        "no": "SmartThings Fuktighetsmåler",
+        "sv": "SmartThings Fuktighetssensor",
+        "pl": "Czujnik Wilgoci SmartThings",
+        "ru": "Датчик Влажности SmartThings",
+        "ko": "스마트싱스 습도 센서"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_water",
+        "measure_temperature",
+        "measure_battery"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "SmartThings"
+        ],
+        "productId": "moisturev4",
+        "deviceId": [
+          1026
+        ],
+        "profileId": 260,
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              15,
+              32,
+              1026,
+              1280
+            ],
+            "bindings": [
+              25
+            ]
+          }
+        }
+      },
+      "learnmode": {
+        "image": "/drivers/im6001-wlp01/assets/images/icon.svg",
+        "instruction": {
+          "en": "1. Press and hold the recessed connect button for five (5) seconds.\n2. Release the button when the LED starts blinking red.\n3. The LED will blink red and green while attempting to connect.",
+          "nl": "1. Houd de verzonken verbindingsknop vijf (5) seconden ingedrukt.\n2. Laat de knop los wanneer de LED rood begint te knipperen.\n3. De LED zal rood en groen knipperen tijdens het poging om te verbinden.",
+          "da": "1. Tryk og hold tilslutningsknappen nede i fem (5) sekunder.\n2. Slip knappen, når LED'en begynder at blinke rødt.\n3. LED'en blinker rødt og grønt, mens der forsøges at oprette forbindelse.",
+          "de": "1. Drücken und halten Sie die versenkte Verbindungstaste fünf (5) Sekunden lang.\n2. Lassen Sie die Taste los, wenn die LED zu blinken beginnt.\n3. Die LED blinkt rot und grün, während die Verbindung hergestellt wird.",
+          "es": "1. Mantén presionado el botón de conexión hundido durante cinco (5) segundos.\n2. Suelta el botón cuando el LED comience a parpadear en rojo.\n3. El LED parpadeará en rojo y verde mientras intenta conectarse.",
+          "fr": "1. Appuyez et maintenez enfoncé le bouton de connexion encastré pendant cinq (5) secondes.\n2. Relâchez le bouton lorsque la LED commence à clignoter en rouge.\n3. La LED clignotera en rouge et vert pendant la tentative de connexion.",
+          "it": "1. Premi e tieni premuto il pulsante di connessione incassato per cinque (5) secondi.\n2. Rilascia il pulsante quando il LED inizia a lampeggiare in rosso.\n3. Il LED lampeggerà in rosso e verde mentre tenta di connettersi.",
+          "no": "1. Trykk og hold inne tilkoblingsknappen i fem (5) sekunder.\n2. Slipp knappen når LED-lampen begynner å blinke rødt.\n3. LED-lampen vil blinke rødt og grønt mens den forsøker å koble til.",
+          "sv": "1. Håll nedkopplinga knappen i fem (5) sekunder.\n2. Släpp knappen när LED-lampan börjar blinka rött.\n3. LED-lampan kommer att blinka rött och grönt medan den försöker ansluta.",
+          "pl": "1. Naciśnij i przytrzymaj zagłębiony przycisk łączenia przez pięć (5) sekund.\n2. Zwolnij przycisk, gdy dioda LED zacznie migać na czerwono.\n3. Dioda LED będzie migać na czerwono i zielono podczas próby połączenia.",
+          "ru": "1. Нажмите и удерживайте утопленную кнопку подключения в течение пяти (5) секунд.\n2. Отпустите кнопку, когда светодиод начнёт мигать красным.\n3. Светодиод будет мигать красным и зелёным во время попытки соединения.",
+          "ko": "1. 연결 버튼을 5초간 눌러주세요.\n2. LED가 빨간색으로 깜박이면 버튼을 놓으세요.\n3. 연결을 시도하는 동안 LED가 빨강과 초록으로 깜박입니다."
+        }
+      },
+      "images": {
+        "small": "/drivers/im6001-wlp01/assets/images/small.png",
+        "large": "/drivers/im6001-wlp01/assets/images/large.png",
+        "xlarge": "/drivers/im6001-wlp01/assets/images/xlarge.png"
+      },
+      "connectivity": [
+        "zigbee"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2"
+        ]
+      },
+      "id": "im6001-wlp01",
+      "settings": [
+        {
+          "id": "temperature_report_interval",
+          "type": "number",
+          "label": {
+            "en": "Temperature Reporting Interval (seconds)",
+            "nl": "Temperatuur rapportage-interval (seconden)",
+            "da": "Temperatur rapporteringsinterval (sekunder)",
+            "de": "Temperaturberichterstattungsintervall (Sekunden)",
+            "es": "Intervalo de informe de temperatura (segundos)",
+            "fr": "Intervalle de rapport de température (secondes)",
+            "it": "Intervallo di segnalazione della temperatura (secondi)",
+            "no": "Temperatur rapporteringsintervall (sekunder)",
+            "sv": "Temperaturrapporteringsintervall (sekunder)",
+            "pl": "Interwał raportowania temperatury (sekundy)",
+            "ru": "Интервал отчетности о температуре (секунды)",
+            "ko": "온도 보고 간격(초)"
+          },
+          "hint": {
+            "en": "Set the interval in seconds for reporting temperature changes.",
+            "nl": "Stel het interval in seconden in voor het rapporteren van temperatuurveranderingen.",
+            "da": "Indstil intervallet i sekunder for at rapportere temperaturændringer.",
+            "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Temperaturänderungen ein.",
+            "es": "Establezca el intervalo en segundos para informar sobre cambios de temperatura.",
+            "fr": "Définissez l'intervalle en secondes pour signaler les changements de température.",
+            "it": "Imposta l'intervallo in secondi per segnalare le variazioni di temperatura.",
+            "no": "Angi intervallet i sekunder for å rapportere temperaturendringer.",
+            "sv": "Ställ in intervallet i sekunder för att rapportera temperaturförändringar.",
+            "pl": "Ustaw interwał w sekundach do raportowania zmian temperatury.",
+            "ru": "Установите интервал в секундах для отчета об изменениях температуры.",
+            "ko": "온도 변화 보고 간격을 초 단위로 설정하세요."
+          },
+          "min": 60,
+          "max": 3600,
+          "value": 300
+        },
+        {
+          "id": "battery_report_interval",
+          "type": "number",
+          "label": {
+            "en": "Battery Reporting Interval (seconds)",
+            "nl": "Batterij rapportage-interval (seconden)",
+            "da": "Batterirapporteringsinterval (sekunder)",
+            "de": "Batterieberichterstattungsintervall (Sekunden)",
+            "es": "Intervalo de informe de batería (segundos)",
+            "fr": "Intervalle de rapport de batterie (secondes)",
+            "it": "Intervallo di segnalazione della batteria (secondi)",
+            "no": "Batteri rapporteringsintervall (sekunder)",
+            "sv": "Batterirapporteringsintervall (sekunder)",
+            "pl": "Interwał raportowania stanu baterii (sekundy)",
+            "ru": "Интервал отчетности о батарее (секунды)",
+            "ko": "배터리 보고 간격(초)"
+          },
+          "hint": {
+            "en": "Set the interval in seconds for reporting battery status changes.",
+            "nl": "Stel het interval in seconden in voor het rapporteren van veranderingen in batterijstatus.",
+            "da": "Indstil intervallet i sekunder for at rapportere ændringer i batteristatus.",
+            "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Änderungen des Batteriestatus ein.",
+            "es": "Establezca el intervalo en segundos para informar sobre cambios en el estado de la batería.",
+            "fr": "Définissez l'intervalle en secondes pour signaler les changements d'état de la batterie.",
+            "it": "Imposta l'intervallo in secondi per segnalare le variazioni di stato della batteria.",
+            "no": "Angi intervallet i sekunder for å rapportere batteristatusendringer.",
+            "sv": "Ställ in intervallet i sekunder för att rapportera batteristatusändringar.",
+            "pl": "Ustaw interwał w sekundach do raportowania zmian stanu baterii.",
+            "ru": "Установите интервал в секундах для отчета об изменениях статуса батареи.",
+            "ko": "배터리 상태 변경 보고 간격을 초 단위로 설정하세요."
+          },
+          "min": 300,
+          "max": 86400,
+          "value": 3600
+        },
+        {
+          "id": "water_alarm_sensitivity",
+          "type": "dropdown",
+          "label": {
+            "en": "Water Alarm Sensitivity",
+            "nl": "Gevoeligheid van wateralarm",
+            "da": "Vandalarm følsomhed",
+            "de": "Wasseralarmempfindlichkeit",
+            "es": "Sensibilidad de alarma de agua",
+            "fr": "Sensibilité de l'alarme d'eau",
+            "it": "Sensibilità allarme acqua",
+            "no": "Sensitivitet for vannalarm",
+            "sv": "Vattenlarm känslighet",
+            "pl": "Czułość alarmu wodnego",
+            "ru": "Чувствительность водяной сигнализации",
+            "ko": "수경보 감도"
+          },
+          "hint": {
+            "en": "Set the sensitivity level for the water alarm detection.",
+            "nl": "Stel het gevoeligheidsniveau voor de wateralarmdetectie in.",
+            "da": "Indstil følsomhedsniveauet for vandalarmdetektion.",
+            "de": "Stellen Sie das Empfindlichkeitsniveau für die Wasseralarmdetektion ein.",
+            "es": "Establezca el nivel de sensibilidad para la detección de alarmas de agua.",
+            "fr": "Réglez le niveau de sensibilité détecteur d'alarme d'eau.",
+            "it": "Imposta il livello di sensibilità per il rilevamento degli allarmi dell'acqua.",
+            "no": "Still inn følsomhetsnivået for vannalarmdeteksjon.",
+            "sv": "Ställ in känslighetsnivån för vattenlarmdetektion.",
+            "pl": "Ustaw poziom czułości wykrywania alarmu wodnego.",
+            "ru": "Установите уровень чувствительности для обнаружения водяной сигнализации.",
+            "ko": "수경보 탐지 감도를 설정하세요."
+          },
+          "value": "normal",
+          "values": [
+            {
+              "id": "low",
+              "label": {
+                "en": "Low",
+                "nl": "Laag",
+                "da": "Lav",
+                "de": "Niedrig",
+                "es": "Bajo",
+                "fr": "Faible",
+                "it": "Basso",
+                "no": "Lav",
+                "sv": "Låg",
+                "pl": "Niski",
+                "ru": "Низкий",
+                "ko": "낮음"
+              }
+            },
+            {
+              "id": "normal",
+              "label": {
+                "en": "Normal",
+                "nl": "Normaal",
+                "da": "Normal",
+                "de": "Normal",
+                "es": "Normal",
+                "fr": "Normal",
+                "it": "Normale",
+                "no": "Normal",
+                "sv": "Normal",
+                "pl": "Normalny",
+                "ru": "Нормальный",
+                "ko": "보통"
+              }
+            },
+            {
+              "id": "high",
+              "label": {
+                "en": "High",
+                "nl": "Hoog",
+                "da": "Høj",
+                "de": "Hoch",
+                "es": "Alto",
+                "fr": "Élevé",
+                "it": "Alto",
+                "no": "Høy",
+                "sv": "Hög",
+                "pl": "Wysoki",
+                "ru": "Высокий",
+                "ko": "높음"
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "capabilities": {
@@ -767,7 +1007,16 @@
       "units": {
         "en": "%",
         "ko": "%",
-        "no": " %"
+        "no": " %",
+        "nl": "%",
+        "da": "%",
+        "de": "%",
+        "es": "%",
+        "fr": "%",
+        "it": "%",
+        "sv": "%",
+        "pl": "%",
+        "ru": "%"
       },
       "insights": true,
       "min": 0,
