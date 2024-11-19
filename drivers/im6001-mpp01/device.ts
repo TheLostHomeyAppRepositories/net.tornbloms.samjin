@@ -10,7 +10,7 @@ if (process.env.DEBUG === '1') {
  * Class representing the IM6001 Samjin Multi Sensor device.
  * This class handles initialization, reporting, and configuration of the sensor's Zigbee capabilities.
  */
-class IM6001Device extends ZigBeeDevice {
+class IM6001mpp01Device extends ZigBeeDevice {
   /**
    * onInit is called when the device is first initialized.
    * This method is triggered only once, when the device is added to the system.
@@ -18,7 +18,7 @@ class IM6001Device extends ZigBeeDevice {
   async onInit() {
     // Log that the device has been initialized successfully
     this.log(
-      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001Device has been initialized`,
+      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001mpp01Device has been initialized`,
     );
   }
 
@@ -114,7 +114,7 @@ class IM6001Device extends ZigBeeDevice {
   async onAdded() {
     // Log that the device has been added successfully
     this.log(
-      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001Device has been added`,
+      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001mpp01Device has been added`,
     );
   }
 
@@ -143,7 +143,7 @@ class IM6001Device extends ZigBeeDevice {
   }): Promise<string | void> {
     // Log that the settings have been changed
     this.log(
-      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001Device settings were changed`,
+      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001mpp01Device settings were changed`,
     );
   }
 
@@ -206,7 +206,7 @@ class IM6001Device extends ZigBeeDevice {
   async onRenamed(name: string) {
     // Log that the device was renamed
     this.log(
-      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001Device was renamed`,
+      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001mpp01Device was renamed`,
     );
   }
 
@@ -217,9 +217,9 @@ class IM6001Device extends ZigBeeDevice {
   async onDeleted() {
     // Log that the device has been deleted
     this.log(
-      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001Device has been deleted`,
+      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001mpp01Device has been deleted`,
     );
   }
 }
 
-module.exports = IM6001Device;
+module.exports = IM6001mpp01Device;

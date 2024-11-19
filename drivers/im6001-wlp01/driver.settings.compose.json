@@ -1,0 +1,158 @@
+[
+  {
+    "id": "temperature_report_interval",
+    "type": "number",
+    "label": {
+      "en": "Temperature Reporting Interval (seconds)",
+      "nl": "Temperatuur rapportage-interval (seconden)",
+      "da": "Temperatur rapporteringsinterval (sekunder)",
+      "de": "Temperaturberichterstattungsintervall (Sekunden)",
+      "es": "Intervalo de informe de temperatura (segundos)",
+      "fr": "Intervalle de rapport de température (secondes)",
+      "it": "Intervallo di segnalazione della temperatura (secondi)",
+      "no": "Temperatur rapporteringsintervall (sekunder)",
+      "sv": "Temperaturrapporteringsintervall (sekunder)",
+      "pl": "Interwał raportowania temperatury (sekundy)",
+      "ru": "Интервал отчетности о температуре (секунды)",
+      "ko": "온도 보고 간격(초)"
+    },
+    "hint": {
+      "en": "Set the interval in seconds for reporting temperature changes.",
+      "nl": "Stel het interval in seconden in voor het rapporteren van temperatuurveranderingen.",
+      "da": "Indstil intervallet i sekunder for at rapportere temperaturændringer.",
+      "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Temperaturänderungen ein.",
+      "es": "Establezca el intervalo en segundos para informar sobre cambios de temperatura.",
+      "fr": "Définissez l'intervalle en secondes pour signaler les changements de température.",
+      "it": "Imposta l'intervallo in secondi per segnalare le variazioni di temperatura.",
+      "no": "Angi intervallet i sekunder for å rapportere temperaturendringer.",
+      "sv": "Ställ in intervallet i sekunder för att rapportera temperaturförändringar.",
+      "pl": "Ustaw interwał w sekundach do raportowania zmian temperatury.",
+      "ru": "Установите интервал в секундах для отчета об изменениях температуры.",
+      "ko": "온도 변화 보고 간격을 초 단위로 설정하세요."
+    },
+    "min": 60,
+    "max": 3600,
+    "value": 300
+  },
+  {
+    "id": "battery_report_interval",
+    "type": "number",
+    "label": {
+      "en": "Battery Reporting Interval (seconds)",
+      "nl": "Batterij rapportage-interval (seconden)",
+      "da": "Batterirapporteringsinterval (sekunder)",
+      "de": "Batterieberichterstattungsintervall (Sekunden)",
+      "es": "Intervalo de informe de batería (segundos)",
+      "fr": "Intervalle de rapport de batterie (secondes)",
+      "it": "Intervallo di segnalazione della batteria (secondi)",
+      "no": "Batteri rapporteringsintervall (sekunder)",
+      "sv": "Batterirapporteringsintervall (sekunder)",
+      "pl": "Interwał raportowania stanu baterii (sekundy)",
+      "ru": "Интервал отчетности о батарее (секунды)",
+      "ko": "배터리 보고 간격(초)"
+    },
+    "hint": {
+      "en": "Set the interval in seconds for reporting battery status changes.",
+      "nl": "Stel het interval in seconden in voor het rapporteren van veranderingen in batterijstatus.",
+      "da": "Indstil intervallet i sekunder for at rapportere ændringer i batteristatus.",
+      "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Änderungen des Batteriestatus ein.",
+      "es": "Establezca el intervalo en segundos para informar sobre cambios en el estado de la batería.",
+      "fr": "Définissez l'intervalle en secondes pour signaler les changements d'état de la batterie.",
+      "it": "Imposta l'intervallo in secondi per segnalare le variazioni di stato della batteria.",
+      "no": "Angi intervallet i sekunder for å rapportere batteristatusendringer.",
+      "sv": "Ställ in intervallet i sekunder för att rapportera batteristatusändringar.",
+      "pl": "Ustaw interwał w sekundach do raportowania zmian stanu baterii.",
+      "ru": "Установите интервал в секундах для отчета об изменениях статуса батареи.",
+      "ko": "배터리 상태 변경 보고 간격을 초 단위로 설정하세요."
+    },
+    "min": 300,
+    "max": 86400,
+    "value": 3600
+  },
+  {
+    "id": "water_alarm_sensitivity",
+    "type": "dropdown",
+    "label": {
+      "en": "Water Alarm Sensitivity",
+      "nl": "Gevoeligheid van wateralarm",
+      "da": "Vandalarm følsomhed",
+      "de": "Wasseralarmempfindlichkeit",
+      "es": "Sensibilidad de alarma de agua",
+      "fr": "Sensibilité de l'alarme d'eau",
+      "it": "Sensibilità allarme acqua",
+      "no": "Sensitivitet for vannalarm",
+      "sv": "Vattenlarm känslighet",
+      "pl": "Czułość alarmu wodnego",
+      "ru": "Чувствительность водяной сигнализации",
+      "ko": "수경보 감도"
+    },
+    "hint": {
+      "en": "Set the sensitivity level for the water alarm detection.",
+      "nl": "Stel het gevoeligheidsniveau voor de wateralarmdetectie in.",
+      "da": "Indstil følsomhedsniveauet for vandalarmdetektion.",
+      "de": "Stellen Sie das Empfindlichkeitsniveau für die Wasseralarmdetektion ein.",
+      "es": "Establezca el nivel de sensibilidad para la detección de alarmas de agua.",
+      "fr": "Réglez le niveau de sensibilité détecteur d'alarme d'eau.",
+      "it": "Imposta il livello di sensibilità per il rilevamento degli allarmi dell'acqua.",
+      "no": "Still inn følsomhetsnivået for vannalarmdeteksjon.",
+      "sv": "Ställ in känslighetsnivån för vattenlarmdetektion.",
+      "pl": "Ustaw poziom czułości wykrywania alarmu wodnego.",
+      "ru": "Установите уровень чувствительности для обнаружения водяной сигнализации.",
+      "ko": "수경보 탐지 감도를 설정하세요."
+    },
+    "value": "normal",
+    "values": [
+      {
+        "id": "low",
+        "label": {
+          "en": "Low",
+          "nl": "Laag",
+          "da": "Lav",
+          "de": "Niedrig",
+          "es": "Bajo",
+          "fr": "Faible",
+          "it": "Basso",
+          "no": "Lav",
+          "sv": "Låg",
+          "pl": "Niski",
+          "ru": "Низкий",
+          "ko": "낮음"
+        }
+      },
+      {
+        "id": "normal",
+        "label": {
+          "en": "Normal",
+          "nl": "Normaal",
+          "da": "Normal",
+          "de": "Normal",
+          "es": "Normal",
+          "fr": "Normal",
+          "it": "Normale",
+          "no": "Normal",
+          "sv": "Normal",
+          "pl": "Normalny",
+          "ru": "Нормальный",
+          "ko": "보통"
+        }
+      },
+      {
+        "id": "high",
+        "label": {
+          "en": "High",
+          "nl": "Hoog",
+          "da": "Høj",
+          "de": "Hoch",
+          "es": "Alto",
+          "fr": "Élevé",
+          "it": "Alto",
+          "no": "Høy",
+          "sv": "Hög",
+          "pl": "Wysoki",
+          "ru": "Высокий",
+          "ko": "높음"
+        }
+      }
+    ]
+  }
+]
