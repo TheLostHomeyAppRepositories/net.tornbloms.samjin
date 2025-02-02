@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "net.tornbloms.samjin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "compatibility": ">=12.0.0",
   "sdk": 3,
   "platforms": [
@@ -359,6 +359,350 @@
       ]
     },
     {
+      "name": {
+        "en": "Samjin Button"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "measure_battery",
+        "measure_temperature"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "Samjin"
+        ],
+        "productId": "button",
+        "deviceId": [
+          1026
+        ],
+        "profileId": 260,
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              32,
+              1026,
+              1280,
+              2821
+            ],
+            "bindings": [
+              3,
+              25
+            ]
+          }
+        }
+      },
+      "learnmode": {
+        "image": "/drivers/im6001-btp02/assets/images/icon.svg",
+        "instruction": {
+          "en": "1. Press and hold the button for five (5) seconds.\n2. Release when the LED starts blinking red.\n3. The LED will blink red and green while attempting to connect."
+        }
+      },
+      "images": {
+        "small": "/drivers/im6001-btp02/assets/images/small.png",
+        "large": "/drivers/im6001-btp02/assets/images/large.png",
+        "xlarge": "/drivers/im6001-btp02/assets/images/xlarge.png"
+      },
+      "connectivity": [
+        "zigbee"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2450"
+        ]
+      },
+      "id": "im6001-btp02",
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Device infomation",
+            "nl": "Apparaatinformatie",
+            "da": "Enhedsoplysninger",
+            "de": "Geräteinformationen",
+            "es": "Información del dispositivo",
+            "fr": "Informations sur l'appareil",
+            "it": "Informazioni sul dispositivo",
+            "no": "Enhetsinformasjon",
+            "sv": "Enhetsinformation",
+            "pl": "Informacje o urządzeniu",
+            "ru": "Информация об устройстве",
+            "ko": "장치 정보"
+          },
+          "children": [
+            {
+              "id": "name",
+              "type": "label",
+              "label": {
+                "en": "Device Name",
+                "nl": "Apparaatnaam",
+                "da": "Enhedsnavn",
+                "de": "Gerätename",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Enhetsnavn",
+                "sv": "Enhetsnamn",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치 이름"
+              },
+              "value": "SmartThings Multipurpuse Sensor V5",
+              "hint": {
+                "en": "Name of the device",
+                "nl": "Naam van het apparaat",
+                "da": "Navn på enheden",
+                "de": "Name des Geräts",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Navn på enheten",
+                "sv": "Namn på enheten",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치의 이름"
+              }
+            },
+            {
+              "id": "label",
+              "type": "label",
+              "label": {
+                "en": "Device Label",
+                "nl": "Apparaatlabel",
+                "da": "Enhedsetiket",
+                "de": "Geräteetikett",
+                "es": "Etiqueta del dispositivo",
+                "fr": "Étiquette de l'appareil",
+                "it": "Etichetta del dispositivo",
+                "no": "Enhetsetikett",
+                "sv": "Enhetsetikett",
+                "pl": "Etykieta urządzenia",
+                "ru": "Метка устройства",
+                "ko": "장치 라벨"
+              },
+              "value": "Sensor",
+              "hint": {
+                "en": "A label for the device",
+                "nl": "Een label voor het apparaat",
+                "da": "En etiket til enheden",
+                "de": "Ein Etikett für das Gerät",
+                "es": "Una etiqueta para el dispositivo",
+                "fr": "Une étiquette pour l'appareil",
+                "it": "Un'etichetta per il dispositivo",
+                "no": "En etikett for enheten",
+                "sv": "En etikett för enheten",
+                "pl": "Etykieta dla urządzenia",
+                "ru": "Метка для устройства",
+                "ko": "장치에 대한 라벨"
+              }
+            },
+            {
+              "id": "zigbeeid",
+              "type": "label",
+              "label": {
+                "en": "Zigbee Id",
+                "nl": "Zigbee id",
+                "da": "Zigbee-id",
+                "de": "Zigbee-ID",
+                "es": "ID de Zigbee",
+                "fr": "ID Zigbee",
+                "it": "ID Zigbee",
+                "no": "Zigbee ID",
+                "sv": "Zigbee-ID",
+                "pl": "Identyfikator Zigbee",
+                "ru": "Zigbee ID",
+                "ko": "Zigbee ID"
+              },
+              "value": "23456652435739SEDA",
+              "hint": {
+                "en": "The Zigbee id of the device",
+                "nl": "De Zigbee-id van het apparaat",
+                "da": "Enhedens Zigbee-id",
+                "de": "Die Zigbee-ID des Geräts",
+                "es": "La ID de Zigbee del dispositivo",
+                "fr": "L'ID Zigbee de l'appareil",
+                "it": "L'ID Zigbee del dispositivo",
+                "no": "Enhetens Zigbee-ID",
+                "sv": "Enhetens Zigbee-ID",
+                "pl": "Identyfikator Zigbee urządzenia",
+                "ru": "Zigbee ID устройства",
+                "ko": "장치의 Zigbee ID"
+              }
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Advanced settings"
+          },
+          "children": [
+            {
+              "id": "temperature_report_interval",
+              "type": "number",
+              "label": {
+                "en": "Temperature Reporting Interval (seconds)",
+                "nl": "Temperatuur rapportage-interval (seconden)",
+                "da": "Temperatur rapporteringsinterval (sekunder)",
+                "de": "Temperaturberichterstattungsintervall (Sekunden)",
+                "es": "Intervalo de informe de temperatura (segundos)",
+                "fr": "Intervalle de rapport de température (secondes)",
+                "it": "Intervallo di segnalazione della temperatura (secondi)",
+                "no": "Temperatur rapporteringsintervall (sekunder)",
+                "sv": "Temperaturrapporteringsintervall (sekunder)",
+                "pl": "Interwał raportowania temperatury (sekundy)",
+                "ru": "Интервал отчетности о температуре (секунды)",
+                "ko": "온도 보고 간격(초)"
+              },
+              "hint": {
+                "en": "Set the interval in seconds for reporting temperature changes.",
+                "nl": "Stel het interval in seconden in voor het rapporteren van temperatuurveranderingen.",
+                "da": "Indstil intervallet i sekunder for at rapportere temperaturændringer.",
+                "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Temperaturänderungen ein.",
+                "es": "Establezca el intervalo en segundos para informar sobre cambios de temperatura.",
+                "fr": "Définissez l'intervalle en secondes pour signaler les changements de température.",
+                "it": "Imposta l'intervallo in secondi per segnalare le variazioni di temperatura.",
+                "no": "Angi intervallet i sekunder for å rapportere temperaturendringer.",
+                "sv": "Ställ in intervallet i sekunder för att rapportera temperaturförändringar.",
+                "pl": "Ustaw interwał w sekundach do raportowania zmian temperatury.",
+                "ru": "Установите интервал в секундах для отчета об изменениях температуры.",
+                "ko": "온도 변화 보고 간격을 초 단위로 설정하세요."
+              },
+              "min": 60,
+              "max": 3600,
+              "value": 300
+            },
+            {
+              "id": "battery_report_interval",
+              "type": "number",
+              "label": {
+                "en": "Battery Reporting Interval (seconds)",
+                "nl": "Batterij rapportage-interval (seconden)",
+                "da": "Batterirapporteringsinterval (sekunder)",
+                "de": "Batterieberichterstattungsintervall (Sekunden)",
+                "es": "Intervalo de informe de batería (segundos)",
+                "fr": "Intervalle de rapport de batterie (secondes)",
+                "it": "Intervallo di segnalazione della batteria (secondi)",
+                "no": "Batteri rapporteringsintervall (sekunder)",
+                "sv": "Batterirapporteringsintervall (sekunder)",
+                "pl": "Interwał raportowania stanu baterii (sekundy)",
+                "ru": "Интервал отчетности о батарее (секунды)",
+                "ko": "배터리 보고 간격(초)"
+              },
+              "hint": {
+                "en": "Set the interval in seconds for reporting battery status changes.",
+                "nl": "Stel het interval in seconden in voor het rapporteren van veranderingen in batterijstatus.",
+                "da": "Indstil intervallet i sekunder for at rapportere ændringer i batteristatus.",
+                "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Änderungen des Batteriestatus ein.",
+                "es": "Establezca el intervalo en segundos para informar sobre cambios en el estado de la batería.",
+                "fr": "Définissez l'intervalle en secondes pour signaler les changements d'état de la batterie.",
+                "it": "Imposta l'intervallo in secondi per segnalare le variazioni di stato della batteria.",
+                "no": "Angi intervallet i sekunder for å rapportere batteristatusendringer.",
+                "sv": "Ställ in intervallet i sekunder för att rapportera batteristatusändringar.",
+                "pl": "Ustaw interwał w sekundach do raportowania zmian stanu baterii.",
+                "ru": "Установите интервал в секундах для отчета об изменениях статуса батареи.",
+                "ko": "배터리 상태 변경 보고 간격을 초 단위로 설정하세요."
+              },
+              "min": 300,
+              "max": 86400,
+              "value": 3600
+            },
+            {
+              "id": "water_alarm_sensitivity",
+              "type": "dropdown",
+              "label": {
+                "en": "Water Alarm Sensitivity",
+                "nl": "Gevoeligheid van wateralarm",
+                "da": "Vandalarm følsomhed",
+                "de": "Wasseralarmempfindlichkeit",
+                "es": "Sensibilidad de alarma de agua",
+                "fr": "Sensibilité de l'alarme d'eau",
+                "it": "Sensibilità allarme acqua",
+                "no": "Sensitivitet for vannalarm",
+                "sv": "Vattenlarm känslighet",
+                "pl": "Czułość alarmu wodnego",
+                "ru": "Чувствительность водяной сигнализации",
+                "ko": "수경보 감도"
+              },
+              "hint": {
+                "en": "Set the sensitivity level for the water alarm detection.",
+                "nl": "Stel het gevoeligheidsniveau voor de wateralarmdetectie in.",
+                "da": "Indstil følsomhedsniveauet for vandalarmdetektion.",
+                "de": "Stellen Sie das Empfindlichkeitsniveau für die Wasseralarmdetektion ein.",
+                "es": "Establezca el nivel de sensibilidad para la detección de alarmas de agua.",
+                "fr": "Réglez le niveau de sensibilité détecteur d'alarme d'eau.",
+                "it": "Imposta il livello di sensibilità per il rilevamento degli allarmi dell'acqua.",
+                "no": "Still inn følsomhetsnivået for vannalarmdeteksjon.",
+                "sv": "Ställ in känslighetsnivån för vattenlarmdetektion.",
+                "pl": "Ustaw poziom czułości wykrywania alarmu wodnego.",
+                "ru": "Установите уровень чувствительности для обнаружения водяной сигнализации.",
+                "ko": "수경보 탐지 감도를 설정하세요."
+              },
+              "value": "normal",
+              "values": [
+                {
+                  "id": "low",
+                  "label": {
+                    "en": "Low",
+                    "nl": "Laag",
+                    "da": "Lav",
+                    "de": "Niedrig",
+                    "es": "Bajo",
+                    "fr": "Faible",
+                    "it": "Basso",
+                    "no": "Lav",
+                    "sv": "Låg",
+                    "pl": "Niski",
+                    "ru": "Низкий",
+                    "ko": "낮음"
+                  }
+                },
+                {
+                  "id": "normal",
+                  "label": {
+                    "en": "Normal",
+                    "nl": "Normaal",
+                    "da": "Normal",
+                    "de": "Normal",
+                    "es": "Normal",
+                    "fr": "Normal",
+                    "it": "Normale",
+                    "no": "Normal",
+                    "sv": "Normal",
+                    "pl": "Normalny",
+                    "ru": "Нормальный",
+                    "ko": "보통"
+                  }
+                },
+                {
+                  "id": "high",
+                  "label": {
+                    "en": "High",
+                    "nl": "Hoog",
+                    "da": "Høj",
+                    "de": "Hoch",
+                    "es": "Alto",
+                    "fr": "Élevé",
+                    "it": "Alto",
+                    "no": "Høy",
+                    "sv": "Hög",
+                    "pl": "Wysoki",
+                    "ru": "Высокий",
+                    "ko": "높음"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "im6001-mpp01",
       "name": {
         "en": "Samjin Multi Sensor",
@@ -648,158 +992,284 @@
       "id": "im6001-wlp01",
       "settings": [
         {
-          "id": "temperature_report_interval",
-          "type": "number",
+          "type": "group",
           "label": {
-            "en": "Temperature Reporting Interval (seconds)",
-            "nl": "Temperatuur rapportage-interval (seconden)",
-            "da": "Temperatur rapporteringsinterval (sekunder)",
-            "de": "Temperaturberichterstattungsintervall (Sekunden)",
-            "es": "Intervalo de informe de temperatura (segundos)",
-            "fr": "Intervalle de rapport de température (secondes)",
-            "it": "Intervallo di segnalazione della temperatura (secondi)",
-            "no": "Temperatur rapporteringsintervall (sekunder)",
-            "sv": "Temperaturrapporteringsintervall (sekunder)",
-            "pl": "Interwał raportowania temperatury (sekundy)",
-            "ru": "Интервал отчетности о температуре (секунды)",
-            "ko": "온도 보고 간격(초)"
+            "en": "Device infomation",
+            "nl": "Apparaatinformatie",
+            "da": "Enhedsoplysninger",
+            "de": "Geräteinformationen",
+            "es": "Información del dispositivo",
+            "fr": "Informations sur l'appareil",
+            "it": "Informazioni sul dispositivo",
+            "no": "Enhetsinformasjon",
+            "sv": "Enhetsinformation",
+            "pl": "Informacje o urządzeniu",
+            "ru": "Информация об устройстве",
+            "ko": "장치 정보"
           },
-          "hint": {
-            "en": "Set the interval in seconds for reporting temperature changes.",
-            "nl": "Stel het interval in seconden in voor het rapporteren van temperatuurveranderingen.",
-            "da": "Indstil intervallet i sekunder for at rapportere temperaturændringer.",
-            "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Temperaturänderungen ein.",
-            "es": "Establezca el intervalo en segundos para informar sobre cambios de temperatura.",
-            "fr": "Définissez l'intervalle en secondes pour signaler les changements de température.",
-            "it": "Imposta l'intervallo in secondi per segnalare le variazioni di temperatura.",
-            "no": "Angi intervallet i sekunder for å rapportere temperaturendringer.",
-            "sv": "Ställ in intervallet i sekunder för att rapportera temperaturförändringar.",
-            "pl": "Ustaw interwał w sekundach do raportowania zmian temperatury.",
-            "ru": "Установите интервал в секундах для отчета об изменениях температуры.",
-            "ko": "온도 변화 보고 간격을 초 단위로 설정하세요."
-          },
-          "min": 60,
-          "max": 3600,
-          "value": 300
-        },
-        {
-          "id": "battery_report_interval",
-          "type": "number",
-          "label": {
-            "en": "Battery Reporting Interval (seconds)",
-            "nl": "Batterij rapportage-interval (seconden)",
-            "da": "Batterirapporteringsinterval (sekunder)",
-            "de": "Batterieberichterstattungsintervall (Sekunden)",
-            "es": "Intervalo de informe de batería (segundos)",
-            "fr": "Intervalle de rapport de batterie (secondes)",
-            "it": "Intervallo di segnalazione della batteria (secondi)",
-            "no": "Batteri rapporteringsintervall (sekunder)",
-            "sv": "Batterirapporteringsintervall (sekunder)",
-            "pl": "Interwał raportowania stanu baterii (sekundy)",
-            "ru": "Интервал отчетности о батарее (секунды)",
-            "ko": "배터리 보고 간격(초)"
-          },
-          "hint": {
-            "en": "Set the interval in seconds for reporting battery status changes.",
-            "nl": "Stel het interval in seconden in voor het rapporteren van veranderingen in batterijstatus.",
-            "da": "Indstil intervallet i sekunder for at rapportere ændringer i batteristatus.",
-            "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Änderungen des Batteriestatus ein.",
-            "es": "Establezca el intervalo en segundos para informar sobre cambios en el estado de la batería.",
-            "fr": "Définissez l'intervalle en secondes pour signaler les changements d'état de la batterie.",
-            "it": "Imposta l'intervallo in secondi per segnalare le variazioni di stato della batteria.",
-            "no": "Angi intervallet i sekunder for å rapportere batteristatusendringer.",
-            "sv": "Ställ in intervallet i sekunder för att rapportera batteristatusändringar.",
-            "pl": "Ustaw interwał w sekundach do raportowania zmian stanu baterii.",
-            "ru": "Установите интервал в секундах для отчета об изменениях статуса батареи.",
-            "ko": "배터리 상태 변경 보고 간격을 초 단위로 설정하세요."
-          },
-          "min": 300,
-          "max": 86400,
-          "value": 3600
-        },
-        {
-          "id": "water_alarm_sensitivity",
-          "type": "dropdown",
-          "label": {
-            "en": "Water Alarm Sensitivity",
-            "nl": "Gevoeligheid van wateralarm",
-            "da": "Vandalarm følsomhed",
-            "de": "Wasseralarmempfindlichkeit",
-            "es": "Sensibilidad de alarma de agua",
-            "fr": "Sensibilité de l'alarme d'eau",
-            "it": "Sensibilità allarme acqua",
-            "no": "Sensitivitet for vannalarm",
-            "sv": "Vattenlarm känslighet",
-            "pl": "Czułość alarmu wodnego",
-            "ru": "Чувствительность водяной сигнализации",
-            "ko": "수경보 감도"
-          },
-          "hint": {
-            "en": "Set the sensitivity level for the water alarm detection.",
-            "nl": "Stel het gevoeligheidsniveau voor de wateralarmdetectie in.",
-            "da": "Indstil følsomhedsniveauet for vandalarmdetektion.",
-            "de": "Stellen Sie das Empfindlichkeitsniveau für die Wasseralarmdetektion ein.",
-            "es": "Establezca el nivel de sensibilidad para la detección de alarmas de agua.",
-            "fr": "Réglez le niveau de sensibilité détecteur d'alarme d'eau.",
-            "it": "Imposta il livello di sensibilità per il rilevamento degli allarmi dell'acqua.",
-            "no": "Still inn følsomhetsnivået for vannalarmdeteksjon.",
-            "sv": "Ställ in känslighetsnivån för vattenlarmdetektion.",
-            "pl": "Ustaw poziom czułości wykrywania alarmu wodnego.",
-            "ru": "Установите уровень чувствительности для обнаружения водяной сигнализации.",
-            "ko": "수경보 탐지 감도를 설정하세요."
-          },
-          "value": "normal",
-          "values": [
+          "children": [
             {
-              "id": "low",
+              "id": "name",
+              "type": "label",
               "label": {
-                "en": "Low",
-                "nl": "Laag",
-                "da": "Lav",
-                "de": "Niedrig",
-                "es": "Bajo",
-                "fr": "Faible",
-                "it": "Basso",
-                "no": "Lav",
-                "sv": "Låg",
-                "pl": "Niski",
-                "ru": "Низкий",
-                "ko": "낮음"
+                "en": "Device Name",
+                "nl": "Apparaatnaam",
+                "da": "Enhedsnavn",
+                "de": "Gerätename",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Enhetsnavn",
+                "sv": "Enhetsnamn",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치 이름"
+              },
+              "value": "SmartThings Multipurpuse Sensor V5",
+              "hint": {
+                "en": "Name of the device",
+                "nl": "Naam van het apparaat",
+                "da": "Navn på enheden",
+                "de": "Name des Geräts",
+                "es": "Nombre del dispositivo",
+                "fr": "Nom de l'appareil",
+                "it": "Nome del dispositivo",
+                "no": "Navn på enheten",
+                "sv": "Namn på enheten",
+                "pl": "Nazwa urządzenia",
+                "ru": "Имя устройства",
+                "ko": "장치의 이름"
               }
             },
             {
-              "id": "normal",
+              "id": "label",
+              "type": "label",
               "label": {
-                "en": "Normal",
-                "nl": "Normaal",
-                "da": "Normal",
-                "de": "Normal",
-                "es": "Normal",
-                "fr": "Normal",
-                "it": "Normale",
-                "no": "Normal",
-                "sv": "Normal",
-                "pl": "Normalny",
-                "ru": "Нормальный",
-                "ko": "보통"
+                "en": "Device Label",
+                "nl": "Apparaatlabel",
+                "da": "Enhedsetiket",
+                "de": "Geräteetikett",
+                "es": "Etiqueta del dispositivo",
+                "fr": "Étiquette de l'appareil",
+                "it": "Etichetta del dispositivo",
+                "no": "Enhetsetikett",
+                "sv": "Enhetsetikett",
+                "pl": "Etykieta urządzenia",
+                "ru": "Метка устройства",
+                "ko": "장치 라벨"
+              },
+              "value": "Sensor",
+              "hint": {
+                "en": "A label for the device",
+                "nl": "Een label voor het apparaat",
+                "da": "En etiket til enheden",
+                "de": "Ein Etikett für das Gerät",
+                "es": "Una etiqueta para el dispositivo",
+                "fr": "Une étiquette pour l'appareil",
+                "it": "Un'etichetta per il dispositivo",
+                "no": "En etikett for enheten",
+                "sv": "En etikett för enheten",
+                "pl": "Etykieta dla urządzenia",
+                "ru": "Метка для устройства",
+                "ko": "장치에 대한 라벨"
               }
             },
             {
-              "id": "high",
+              "id": "zigbeeid",
+              "type": "label",
               "label": {
-                "en": "High",
-                "nl": "Hoog",
-                "da": "Høj",
-                "de": "Hoch",
-                "es": "Alto",
-                "fr": "Élevé",
-                "it": "Alto",
-                "no": "Høy",
-                "sv": "Hög",
-                "pl": "Wysoki",
-                "ru": "Высокий",
-                "ko": "높음"
+                "en": "Zigbee Id",
+                "nl": "Zigbee id",
+                "da": "Zigbee-id",
+                "de": "Zigbee-ID",
+                "es": "ID de Zigbee",
+                "fr": "ID Zigbee",
+                "it": "ID Zigbee",
+                "no": "Zigbee ID",
+                "sv": "Zigbee-ID",
+                "pl": "Identyfikator Zigbee",
+                "ru": "Zigbee ID",
+                "ko": "Zigbee ID"
+              },
+              "value": "23456652435739SEDA",
+              "hint": {
+                "en": "The Zigbee id of the device",
+                "nl": "De Zigbee-id van het apparaat",
+                "da": "Enhedens Zigbee-id",
+                "de": "Die Zigbee-ID des Geräts",
+                "es": "La ID de Zigbee del dispositivo",
+                "fr": "L'ID Zigbee de l'appareil",
+                "it": "L'ID Zigbee del dispositivo",
+                "no": "Enhetens Zigbee-ID",
+                "sv": "Enhetens Zigbee-ID",
+                "pl": "Identyfikator Zigbee urządzenia",
+                "ru": "Zigbee ID устройства",
+                "ko": "장치의 Zigbee ID"
               }
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Advanced settings"
+          },
+          "children": [
+            {
+              "id": "temperature_report_interval",
+              "type": "number",
+              "label": {
+                "en": "Temperature Reporting Interval (seconds)",
+                "nl": "Temperatuur rapportage-interval (seconden)",
+                "da": "Temperatur rapporteringsinterval (sekunder)",
+                "de": "Temperaturberichterstattungsintervall (Sekunden)",
+                "es": "Intervalo de informe de temperatura (segundos)",
+                "fr": "Intervalle de rapport de température (secondes)",
+                "it": "Intervallo di segnalazione della temperatura (secondi)",
+                "no": "Temperatur rapporteringsintervall (sekunder)",
+                "sv": "Temperaturrapporteringsintervall (sekunder)",
+                "pl": "Interwał raportowania temperatury (sekundy)",
+                "ru": "Интервал отчетности о температуре (секунды)",
+                "ko": "온도 보고 간격(초)"
+              },
+              "hint": {
+                "en": "Set the interval in seconds for reporting temperature changes.",
+                "nl": "Stel het interval in seconden in voor het rapporteren van temperatuurveranderingen.",
+                "da": "Indstil intervallet i sekunder for at rapportere temperaturændringer.",
+                "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Temperaturänderungen ein.",
+                "es": "Establezca el intervalo en segundos para informar sobre cambios de temperatura.",
+                "fr": "Définissez l'intervalle en secondes pour signaler les changements de température.",
+                "it": "Imposta l'intervallo in secondi per segnalare le variazioni di temperatura.",
+                "no": "Angi intervallet i sekunder for å rapportere temperaturendringer.",
+                "sv": "Ställ in intervallet i sekunder för att rapportera temperaturförändringar.",
+                "pl": "Ustaw interwał w sekundach do raportowania zmian temperatury.",
+                "ru": "Установите интервал в секундах для отчета об изменениях температуры.",
+                "ko": "온도 변화 보고 간격을 초 단위로 설정하세요."
+              },
+              "min": 60,
+              "max": 3600,
+              "value": 300
+            },
+            {
+              "id": "battery_report_interval",
+              "type": "number",
+              "label": {
+                "en": "Battery Reporting Interval (seconds)",
+                "nl": "Batterij rapportage-interval (seconden)",
+                "da": "Batterirapporteringsinterval (sekunder)",
+                "de": "Batterieberichterstattungsintervall (Sekunden)",
+                "es": "Intervalo de informe de batería (segundos)",
+                "fr": "Intervalle de rapport de batterie (secondes)",
+                "it": "Intervallo di segnalazione della batteria (secondi)",
+                "no": "Batteri rapporteringsintervall (sekunder)",
+                "sv": "Batterirapporteringsintervall (sekunder)",
+                "pl": "Interwał raportowania stanu baterii (sekundy)",
+                "ru": "Интервал отчетности о батарее (секунды)",
+                "ko": "배터리 보고 간격(초)"
+              },
+              "hint": {
+                "en": "Set the interval in seconds for reporting battery status changes.",
+                "nl": "Stel het interval in seconden in voor het rapporteren van veranderingen in batterijstatus.",
+                "da": "Indstil intervallet i sekunder for at rapportere ændringer i batteristatus.",
+                "de": "Stellen Sie das Intervall in Sekunden für die Berichterstattung über Änderungen des Batteriestatus ein.",
+                "es": "Establezca el intervalo en segundos para informar sobre cambios en el estado de la batería.",
+                "fr": "Définissez l'intervalle en secondes pour signaler les changements d'état de la batterie.",
+                "it": "Imposta l'intervallo in secondi per segnalare le variazioni di stato della batteria.",
+                "no": "Angi intervallet i sekunder for å rapportere batteristatusendringer.",
+                "sv": "Ställ in intervallet i sekunder för att rapportera batteristatusändringar.",
+                "pl": "Ustaw interwał w sekundach do raportowania zmian stanu baterii.",
+                "ru": "Установите интервал в секундах для отчета об изменениях статуса батареи.",
+                "ko": "배터리 상태 변경 보고 간격을 초 단위로 설정하세요."
+              },
+              "min": 300,
+              "max": 86400,
+              "value": 3600
+            },
+            {
+              "id": "water_alarm_sensitivity",
+              "type": "dropdown",
+              "label": {
+                "en": "Water Alarm Sensitivity",
+                "nl": "Gevoeligheid van wateralarm",
+                "da": "Vandalarm følsomhed",
+                "de": "Wasseralarmempfindlichkeit",
+                "es": "Sensibilidad de alarma de agua",
+                "fr": "Sensibilité de l'alarme d'eau",
+                "it": "Sensibilità allarme acqua",
+                "no": "Sensitivitet for vannalarm",
+                "sv": "Vattenlarm känslighet",
+                "pl": "Czułość alarmu wodnego",
+                "ru": "Чувствительность водяной сигнализации",
+                "ko": "수경보 감도"
+              },
+              "hint": {
+                "en": "Set the sensitivity level for the water alarm detection.",
+                "nl": "Stel het gevoeligheidsniveau voor de wateralarmdetectie in.",
+                "da": "Indstil følsomhedsniveauet for vandalarmdetektion.",
+                "de": "Stellen Sie das Empfindlichkeitsniveau für die Wasseralarmdetektion ein.",
+                "es": "Establezca el nivel de sensibilidad para la detección de alarmas de agua.",
+                "fr": "Réglez le niveau de sensibilité détecteur d'alarme d'eau.",
+                "it": "Imposta il livello di sensibilità per il rilevamento degli allarmi dell'acqua.",
+                "no": "Still inn følsomhetsnivået for vannalarmdeteksjon.",
+                "sv": "Ställ in känslighetsnivån för vattenlarmdetektion.",
+                "pl": "Ustaw poziom czułości wykrywania alarmu wodnego.",
+                "ru": "Установите уровень чувствительности для обнаружения водяной сигнализации.",
+                "ko": "수경보 탐지 감도를 설정하세요."
+              },
+              "value": "normal",
+              "values": [
+                {
+                  "id": "low",
+                  "label": {
+                    "en": "Low",
+                    "nl": "Laag",
+                    "da": "Lav",
+                    "de": "Niedrig",
+                    "es": "Bajo",
+                    "fr": "Faible",
+                    "it": "Basso",
+                    "no": "Lav",
+                    "sv": "Låg",
+                    "pl": "Niski",
+                    "ru": "Низкий",
+                    "ko": "낮음"
+                  }
+                },
+                {
+                  "id": "normal",
+                  "label": {
+                    "en": "Normal",
+                    "nl": "Normaal",
+                    "da": "Normal",
+                    "de": "Normal",
+                    "es": "Normal",
+                    "fr": "Normal",
+                    "it": "Normale",
+                    "no": "Normal",
+                    "sv": "Normal",
+                    "pl": "Normalny",
+                    "ru": "Нормальный",
+                    "ko": "보통"
+                  }
+                },
+                {
+                  "id": "high",
+                  "label": {
+                    "en": "High",
+                    "nl": "Hoog",
+                    "da": "Høj",
+                    "de": "Hoch",
+                    "es": "Alto",
+                    "fr": "Élevé",
+                    "it": "Alto",
+                    "no": "Høy",
+                    "sv": "Hög",
+                    "pl": "Wysoki",
+                    "ru": "Высокий",
+                    "ko": "높음"
+                  }
+                }
+              ]
             }
           ]
         }
