@@ -12,10 +12,13 @@ class IM6001Driver extends ZigBeeDriver {
    * This method is triggered once when the driver is loaded, typically when Homey starts or when the app is installed.
    */
   async onInit() {
-    // Log that the driver has been initialized successfully
-    this.log(
-      `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001Driver has been initialised`,
-    );
+    try {
+      this.log(
+        `${this.homey.manifest.id} - ${this.homey.manifest.version} - IM6001Driver has been initialized`,
+      );
+    } catch (error) {
+      this.error('Driver initialization failed:', error);
+    }
   }
 
   /**
@@ -25,19 +28,15 @@ class IM6001Driver extends ZigBeeDriver {
    * @returns {Promise<Array<Object>>} - A promise that resolves to an array of devices available for pairing.
    */
   async onPairListDevices() {
-    // Return an array of device configurations available for pairing
-    this.homey.app.log(
-      `${this.homey.manifest.id} - ${this.homey.manifest.version} - Listing devices...`,
-    );
-    //     return [
-    //        {
-    //           name: 'Samjin Multi Sensor',
-    //           data: {
-    //              ieeeAddress: '28:6d:97:00:01:10:f2:56',
-    //              modelId: 'multi',
-    //           },
-    //        },
-    //     ];
+        try {
+          // Return an array of device configurations available for pairing
+          this.homey.app.log(
+            `${this.homey.manifest.id} - ${this.homey.manifest.version} - Listing devices...`,
+          );
+        } catch (error) {
+          this.error('Error listing devices:', error);
+          throw error; // Re-throw the error to ensure the pairing process fails gracefully
+        }  
   }
 }
 
